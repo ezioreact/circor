@@ -1,0 +1,77 @@
+{
+    "job_summary": {
+        "document_name": "att_7_editable.pdf",
+        "full_path": "D:/.AI-EzioProject/development/circor_dev_2/src/s3/client_documents/att_7_editable.pdf",
+        "total_pages_processed": 8,
+        "execution_time_raw": 2.53,
+        "execution_time_formatted": "2.5s",
+        "total_chunks_extracted": 8,
+        "timestamp": "2026-04-28 11:07:34"
+    },
+    "extracted_data": [
+        {
+            "content": "Token of compliance of complete doc. w.r.t Deviation submitted\nINDICATIVE INSPECTION AND Document no.: AdVENT-STD-\n@ L&T Energy TEST PLAN FOR CONTROL QC-ITP-004, Rev-00\nHydrocarbon VALVE\nINDICATIVE INSPECTION AND TEST PLAN\nFOR\nCONTROL VALVE\ne P 2put\nCIRC\nFlow Technologies India Pvt. Ltd.\nSF No. 337/2N.o . 15, Nllwwn%\nThennampalayam Pirivu to Annus R\nPonnandampalayam, Coimbato- r64e1 658.\n| 2 |\n03032023 00 Issued for Impiementation | /]\nCHETAN DUM RBM\nDate | Rev. Description | Prepared By | Reviewed By | Approved By",
+            "metadata": {
+                "type": "paragraph",
+                "page": 1,
+                "source": "D:/.AI-EzioProject/development/circor_dev_2/src/s3/client_documents/att_7_editable.pdf"
+            }
+        },
+        {
+            "content": "INDICATIVE INSPECTION AND | Document no.: AdVENT-STD-\nL&T Energy TEST PLAN FOR CONTROL | QC-ITP-004, Rev-00\nHydrocarbon VALVE\nRECORD OF REVISIONS\nRev. Date Revision Details\n00 03.03.2023 First Issue",
+            "metadata": {
+                "type": "paragraph",
+                "page": 2,
+                "source": "D:/.AI-EzioProject/development/circor_dev_2/src/s3/client_documents/att_7_editable.pdf"
+            }
+        },
+        {
+            "content": "INDICATIVE INSPECTION AND | Document no.: AdVENT-STD-\nL&T Energy TEST PLAI:JI:S\\II{ECONTROL QC-ITP-004, Rev-00\nHydrocarbon\n1.0 Scope:\nThis Inspection and test plan covers the minimum testing requirements of the Control Valve. The\nscope of inspection shall be as per PO/contractual requirements. The Sub-\ncontractor/Manufacturer/Vendor/Supplier shall prepare stage wise Inspection and Testing Plan in\ndetail complying the applicable specification, MR & DS requirements and shall submit for\nreview/approval.\n2.0 Reference documents:\n1. PO/MR/PR/Standards referred there in/Job specifications/Approved documents.\n3.0 Legends: -\nH: Hold for Inspection, do not proceed, R: Review/Check/Verify documents, W: Witness\nPO: Purchase order; WPS: Welding procedure specification; PQR: Procedure qualification record;\nNDE: Non-destructive examination; PT: Penetrant testing; MT: Magnetic particle testing; RT:\nRadiographic testing; TPIA: Third party inspection agency; MTC: Material Test Certificate; TC: Test\nCertificate\n4.0 Notes: -\n1. This s Indicative Inspection and Test Plan (IITP) only. Vendor shall prepare detailed Inspection and\nTest Plan based on Project Specifications and IITP.\n2. In case of conflict between purchase specification, contract documents and ITP, conditions that\nare more stringent shall be applicable.\n3. Type/Special Test Certificate offered for review shall not be more than 5 years old from the PO\ndate, in absence of the same, Type test has to be performed on each rating from accredited test\nagency.\n4. Acceptance norms for all the activities shall be as per PO/PR/Standards referred there in/Job\nspecification/Approved documents.\n5. Vendor shall carry out additional testing required, if any not specified above, as per PO/Technical\nspecification.\n6. Calibration status of measuring and monitoring instruments/machines to be verified by TPIA\nduring inspection activities.\n7. ITP shall be approved by LTHE.\n5.0 Definitions: -\nHold Point - Fabrication shall be kept under hold until inspection has been performed or written\nclearance is obtained by vendor.\nWitness Point - Advise of inspection, Fabrication may be continued if inspector is not present after\ninvitation issued in due time.\nReview Point - Review of Test Reports/Certificates/Inspection Reports\nApproval Point - Approval Required for Documents",
+            "metadata": {
+                "type": "paragraph",
+                "page": 3,
+                "source": "D:/.AI-EzioProject/development/circor_dev_2/src/s3/client_documents/att_7_editable.pdf"
+            }
+        },
+        {
+            "content": "INDICATIVE INSPECTION AND TEST PLAN FOR CONTROL\n@ L&T Energy\nIITP no. :\nVALVE\nEXTENT OF In\nsr. No. Activity Description Reference Document Acceptance Criteria Record Format | L or e on Vendor\nReview & Approval of Detailed Approved Drawin; Approved Drawing\n1) & App! pproved Drawing, PP s Approved ITP 100% H\nInspection &Test Plan. Datasheet & Spec. Datasheet & Spec.\n2) Raw Material, Incoming Materials & In Process inspection -\n2.1 |Casting & Forgings (Body, Bonnet, Disc, Stem, Body ring)\n. : R Approved Drawing, Approved Drawing, N )\n11 \\,:\\;\\a\\lsuvface Quality, Marking, Dimensions, | 20C8 R3 Dotachect & Snecy \\nspen:::cvepor(, Assz;:erl\\i/\"engz;rns \"\n- Manufacturer Manual | Manufacturer Standards pling\nApproved Drawing, Approved Drawing,\nInspect rt,\n212 |Chemical & Mechanical properties Datasheet & Spec., Datasheet & Spec.; S\"E'::;C'E' All Heats H\nManufacturer Manual | Manufacturer Standards\n2.2 |Accessories (Positioners, Converters, Solenoid valves, limit switches, regulators, etc.)\nApproved Drawing, Approved Drawing, N\n221 |Model no., Make, functional check Datasheet & Spec., Datasheet & Spec.; \"::T\"C'Epm 100% H\nManufacturer Manual | Manufacturer Standards\n2.3 |All casting materials -\nApproved Drawing, Approved Drawing,\n231 |Heat Treatment as per specification Datasheet & Spec., Datasheet & Spec.; HT Charts, MTC All Lots H\nManufacturer Manual | Manufacturer Standards\n2.4 |Castings & Forgings for Austenitic SS Body & Bonnet\n. Approved Drawing, Approved Drawing, Per Heat, Per\nIGC Test, Stabilization Heat treatment N\n241 | cable) Datasheet & Spec., Datasheet & Spec.; HT Charts, MTC Solution H\nPP Manufacturer Manual | Manufacturer Standards Annealed lot\n2.5 |All castings\nApproved Drawing, Approved Drawing, RTFIm/RT 'AS per Data\n251 |Radiography Datasheet & Spec., Datasheet & Spec.; Revort Sheets./ H\nManufacturer Manual | Manufacturer Standards P procedure\n2.6 |Bars for Trim Materials\nApproved Drawing, Approved Drawing,\n26.1 |Chemical analysis Datasheet & Spec., Datasheet & Spec.; Lab Report Al Heats H\nManufacturer Manual | Manufacturer Standards\n3) Bought out Finished & Sub Contract Items\n3.1 |Stems, Gaskets, Gear units, Fasteners, Glands, Packing, etc.\n- Approved Drawing, Approved Drawing, s per vendor\n311 [Surface defects & Dimensions Datasheet & Spec., Datasheet &Spec; |Inspection Report| \"* L1 H\nManufacturer Manual | Manufacturer Standards ping",
+            "metadata": {
+                "type": "paragraph",
+                "page": 4,
+                "source": "D:/.AI-EzioProject/development/circor_dev_2/src/s3/client_documents/att_7_editable.pdf"
+            }
+        },
+        {
+            "content": "INDICATIVE INSPECTION AND TEST PLAN FOR CONTROL\n@ L&T Energy\nIITP no. :\nVALVE\nEXTENT OF In\nsr. No. Activity Description Reference Document | Acceptance Criteria Record Format | Lot oL Vendor\nApproved Drawing, Approved Drawing, terial Test\n312 |Physical/Mechanical, Chemical Properties Datasheet & Spec., Datasheet & Spec.; Conieate All Heats H\nManufacturer Manual | _Manufacturer Standards\n3.2 |Machining of Components & Welding -\n; ) Inspection\nA - . Approved Drawing, Approved Drawing,\n321 ui;j.}i:mensmna' inspection, finishing, Datasheet & Spec., Datasheet & Spec.; ARE:Z;;'S 100% H\nManufacturer Manual | Manufacturer Standards pprovals,\nCertifications.\nApproved Drawing, Approved Drawing,\nHT Charts, MTCs,\n322 |PWHT (As applicable) Datasheet & Spec., Datasheet & Spec.; Ri' :\"5 * 100% H\nManufacturer Manual | Manufacturer Standards P\n4) |Welding Inspection-\n4.1 |Previous Qualifications for Overlay/Stelliting (Body seat ring/ Wedge)\nApproved Drawing, Approved Drawing, [\n411 |Overlay thickness, Stelliting, Hardness Datasheet & Spec., Datasheet & Spec.; e 100% H\nManufacturer Manual | _Manufacturer Standards\n4.2 |New qualifications for Overlay/Stelliting (Body seat ring/Wedge)\nApproved Drawing, Approved Drawing, [\n42.1 |Overlay thickness, Stelliting, Hardness Datasheet & Spec., Datasheet & Spec.; o 100% H\nManufacturer Manual | Manufacturer Standards\n4.3 |NDE after Stelliting / Overlay (as applicable)\nApproved Drawing, Approved Drawing,\n431 |Visual, PT test Datasheet & Spec., Datasheet & Spec.; Test Reports 100% H\nManufacturer Manual | _Manufacturer Standards\n4.4 |NDE of welded joints-\nApproved Drawing, Approved Drawing,\nR films/ RT\n241 |Radiography Datasheet & Spec., Datasheet & Spec.; re' ':;/s 100% H\nManufacturer Manual | Manufacturer Standards P\n4.5 |Post Weld Heat treatment (PWHT), as applicable-\nApproved Drawing, Approved Drawing, Time-\n451 |PWHT of welds Datasheet & Spec., Datasheet & Spec.; Temperature 100% H\nManufacturer Manual | _Manufacturer Standards graph\nPage 50f 8",
+            "metadata": {
+                "type": "paragraph",
+                "page": 5,
+                "source": "D:/.AI-EzioProject/development/circor_dev_2/src/s3/client_documents/att_7_editable.pdf"
+            }
+        },
+        {
+            "content": "INDICATIVE INSPECTION AND TEST PLAN FOR CONTROL\nL&T Energy IITP no. :\n@ ity VALVE\nEXTENT OF In\nsr. No. Activity Description Reference Document | Acceptance Criteria Record Format | Lot oL Vendor\n5) Product Evaluation & Testing-\n5.1 |Finished Valve\nShell Test: Gate/Globe/Check Approved Drawing, rooroved brawin\n511 |Back Seat: Gate/Globe Datasheet, procedure & D::ashee s Ef Test Reports 100% H\nSeat test: Gate/Globe/Check Spec. pec.\nAny mandatory test or Supplementatersyt, Approved Drawing, A d Drawing,\n512 |Helium leak test Datasheet, procedure & pproved brawing Test Reports 100% H\n(as applicable) Spec. Datasheet & Spec.\n! Approved Drawing, ,\n513 Functional / Operational test (Motor/Actuator Datasheet, procedure& Approved Drawing, Test Reports 100% W\noperated) Datasheet & Spec.\nSpec.\nTest on positioners, Control valve dynamic Approved Drawing, )\nA d Drawing,\n514 |response & response time verification; tests | Datasheet, procedure & pproved Drawing, Test Reports 100% H\n! Datasheet & Spec.\non accessories Spec.\nPneumatic test on actuator; Type test for Approved Drawing, Approved Drawing\n515 s Type tes Datasheet, procedure & PP & Test Reports 100% H\nValves in cryogenic service (if specified) oo Datasheet & Spec.\n5.2 |Holiday Test for coatings (as applicable)\nApproved Drawing, -\nA d Drawing,\n521 |Defects/Pin holes/Cracks Datasheet, procedure & pproved Drawing Test Reports 100% H\nDatasheet & Spec.\nSpec.\n6) |Final Inspection / Tests -\n6.1 |Finished valve (Body, Bonnet, Stem)\nApproved Drawing, Approved Drawing, | Inspection/Test | As per approved\n6.1.1 |PMIcheck (for AS/SS)- H\n( /55) Datasheet & Spec. Datasheet & Spec. Report procedure\nVisual, marking, dimensions, bevel, special\n612 | r a e ll q o u y i s r t e e m e e l n & t s P r if o v a i n s y i , o P n a o i f n t b i y n p g a o s f s C a a r r r b a o n n g e & m e L n o t w | Appr Da o t v a e s d h e D e r t a w & i ng, Approved Drawwiinneg:, Inspection 100% H\n(as appli\" cable) Specif\"i cations. Datasheet & Specifications. Reports.",
+            "metadata": {
+                "type": "paragraph",
+                "page": 6,
+                "source": "D:/.AI-EzioProject/development/circor_dev_2/src/s3/client_documents/att_7_editable.pdf"
+            }
+        },
+        {
+            "content": "INDICATIVE INSPECTION AND TEST PLAN FOR CONTROL\n@ L&T Energy\nIITP no. :\nVALVE\nEXTENT OF In\nsr. No. Activity Description Reference Document Acceptance Criteria Record Format | \\\\cor 0N Vendor\n6.2 |Strip check, Differential hardness (as applicable)\n. Approved Drawing, Approved Drawing, Inspection/Test | 1 Valve per\n621 |V t H\nerify components Datasheet & Spec. Datasheet & Spec. Report Type/size & order\n6.3 |Pre-qualificatteisotns\nFi fe test (soft seated ball, plug, butterfl . \"\nire safe test (soft seated ball, plug, butterfly |y o0eq Drawing, Approved Drawing, Acceptance 1Valve per\n63.1 |&lubricated plug valve) N H\nDatasheet & Spec. Datasheet & Spec. report Type/size & order\nCryogenic test\n7) Type Test -\nApproved Drawing, Approved Drawing,\n7.1 |Type test / Prototype test certificate review. Datasheet & Spec., Datasheet & Spec; | Inspection Report Sample H\nManufacturer Manual | Manufacturer Standards\n3 - . MTCs,\nMTC's & Certifications Review. MTCs, Certificates, Test | - MTCs, Certificates, Test | (e . Test\n8 (MTCs, Certificate from PESO/Statutory | Reports, MR/PR, Reports, MR/PR, ; \"f \"';'ESSS 100% \"\nN . eports. PESO,\napproval for use in specified hazardous Specifications, Specifications, Approved Statutory\narea. Approved Drg, Drg, Aoprovals.\nPacking List.\nA d PR/ A dPR/S\n9) Spares Quantity Check pprove /Spare pProver /spare BOM, List of 100% H\nrequirements, BOM. [requirements\nSpares\nPainting & Packing - (Visual check & Approved Drawing, .\n10) [suitable protection to prevent entry of Datasheet & Approved Drawing, |, . o Report 100% H\nable prote P Y 2 Datasheet & Specifications. | \" P\nforeign material) Specifications.",
+            "metadata": {
+                "type": "paragraph",
+                "page": 7,
+                "source": "D:/.AI-EzioProject/development/circor_dev_2/src/s3/client_documents/att_7_editable.pdf"
+            }
+        },
+        {
+            "content": "INDICATIVE INSPECTION AND TEST PLAN FOR CONTROL\n@ L&T Energy\nIITP no. :\nVALVE\nEXTENT OF In\nsr. No. Activity Description Reference Document Acceptance Criteria Record Format INSPECTION Vendor\n. FAT Reports, MTCs, Approved Drawing,\n11) |Inspection Release Note. Certificates Etc. | Datasheet & Specifications. RN 100%\nSubmission of certificates. N Fo, M\\;g\"v T, , | Po.mwR Approved | FI\":/C .\n12) |(final documentation includinalgl pprovec braw nes Drawings / Approved | oor o e 100% H\nN ° ! ! Approved Procedures/ | o ) cecifications | _IC7tes Test\ninspection & material certificates) Specifications P Rpeort/ MDR",
+            "metadata": {
+                "type": "paragraph",
+                "page": 8,
+                "source": "D:/.AI-EzioProject/development/circor_dev_2/src/s3/client_documents/att_7_editable.pdf"
+            }
+        }
+    ]
+}

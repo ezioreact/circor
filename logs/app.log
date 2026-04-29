@@ -1,0 +1,239 @@
+2026-04-27 12:38:03,490 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-04-27 12:38:05,315 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-27 12:38:05,558 | INFO | main.py | main.py:75 | 
+Backend successfully running on: http://0.0.0.0:8001/docs
+
+2026-04-27 12:38:29,699 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-04-27 12:38:30,591 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-27 12:38:31,093 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-27 12:44:18,295 | INFO | rag_llm_connecter.py | rag_llm_connector.py:150 | Exce Question:['Project name', 'Scope of supply', 'Inspection and test plan (ITP), Quality assurance plan(QAP), Quality plan(QP)', 'PED, ATEX, IP, IECeX, PESO', 'NACE']....
+2026-04-27 12:44:18,847 | INFO | rag_llm_connecter.py | rag_llm_connector.py:166 | Collection 'CORB_DM25066L_Rev_1__5' does not exist. Creating and generating embeddings.
+2026-04-27 15:32:28,059 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-04-27 15:32:33,956 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-27 15:32:34,173 | INFO | main.py | main.py:75 | 
+Backend successfully running on: http://0.0.0.0:8001/docs
+
+2026-04-27 15:32:34,551 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-27 15:33:19,298 | INFO | rag_llm_connecter.py | rag_llm_connector.py:150 | Exce Question:['Project name', 'Scope of supply', 'Inspection and test plan (ITP), Quality assurance plan(QAP), Quality plan(QP)', 'PED, ATEX, IP, IECeX, PESO', 'NACE']....
+2026-04-27 15:33:20,130 | INFO | rag_llm_connecter.py | rag_llm_connector.py:166 | Collection 'CORB_1-103' does not exist. Creating and generating embeddings.
+2026-04-27 15:55:25,562 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-04-27 15:55:30,067 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-27 15:55:30,231 | INFO | main.py | main.py:75 | 
+Backend successfully running on: http://0.0.0.0:8001/docs
+
+2026-04-27 15:55:30,479 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-27 15:55:48,812 | INFO | rag_llm_connecter.py | rag_llm_connector.py:150 | Exce Question:['Project name', 'Scope of supply', 'Inspection and test plan (ITP), Quality assurance plan(QAP), Quality plan(QP)', 'PED, ATEX, IP, IECeX, PESO', 'NACE']....
+2026-04-27 15:55:49,992 | INFO | rag_llm_connecter.py | rag_llm_connector.py:166 | Collection 'CORB_1-103' does not exist. Creating and generating embeddings.
+2026-04-27 15:59:17,897 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-04-27 15:59:18,358 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-27 15:59:18,384 | INFO | main.py | main.py:75 | 
+Backend successfully running on: http://0.0.0.0:8001/docs
+
+2026-04-27 15:59:18,437 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-27 15:59:33,185 | INFO | rag_llm_connecter.py | rag_llm_connector.py:150 | Exce Question:['Project name', 'Scope of supply', 'Inspection and test plan (ITP), Quality assurance plan(QAP), Quality plan(QP)', 'PED, ATEX, IP, IECeX, PESO', 'NACE']....
+2026-04-27 15:59:33,201 | INFO | rag_llm_connecter.py | rag_llm_connector.py:166 | Collection 'CORB_1-103' does not exist. Creating and generating embeddings.
+2026-04-27 17:27:56,628 | INFO | excel_writer.py | excel_writer.py:131 | Excel Written Successfully with consolidated results!
+2026-04-27 17:27:57,747 | INFO | uploade_to_s3.py | uploade_to_s3.py:53 | Successfully uploaded to S3: https://boomai-bucket.s3.ap-south-1.amazonaws.com/outputs/CORB-ai-bom-18dda2-response.xlsx
+2026-04-27 17:27:57,799 | INFO | api_router.py | api_router.py:43 | /bom_generation api completed | status = 200 | api response = success
+2026-04-27 17:39:40,498 | INFO | rag_llm_connecter.py | rag_llm_connector.py:150 | Exce Question:['Project name', 'Scope of supply', 'Inspection and test plan (ITP), Quality assurance plan(QAP), Quality plan(QP)', 'PED, ATEX, IP, IECeX, PESO', 'NACE']....
+2026-04-27 17:39:40,657 | INFO | rag_llm_connecter.py | rag_llm_connector.py:161 | Collection 'CORB_1-103' exists. Skipping embedding generation.
+2026-04-27 17:53:31,495 | INFO | excel_writer.py | excel_writer.py:131 | Excel Written Successfully with consolidated results!
+2026-04-27 17:53:32,109 | INFO | uploade_to_s3.py | uploade_to_s3.py:53 | Successfully uploaded to S3: https://boomai-bucket.s3.ap-south-1.amazonaws.com/outputs/CORB-ai-bom-ee930a-response.xlsx
+2026-04-27 17:53:32,109 | INFO | api_router.py | api_router.py:43 | /bom_generation api completed | status = 200 | api response = success
+2026-04-28 10:25:11,468 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-04-28 10:25:26,873 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-28 10:25:27,632 | INFO | main.py | main.py:75 | 
+Backend successfully running on: http://0.0.0.0:8001/docs
+
+2026-04-28 10:25:28,856 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-28 10:31:17,970 | INFO | rag_llm_connecter.py | rag_llm_connector.py:150 | Exce Question:['Dye penetrant test, Dye penetrant examination (PT), DPT, DPE', 'Function test report', 'Heat treatment chart, PWHT chart', 'Heat treatment process-Normalising', 'Heat treatment temperature']....
+2026-04-28 10:31:22,143 | INFO | rag_llm_connecter.py | rag_llm_connector.py:161 | Collection 'Att-6_AdVENT-STD-QC-ITP-050_-_IITP_for_Desuperheater_2__2' exists. Skipping embedding generation.
+2026-04-28 10:43:08,241 | INFO | excel_writer.py | excel_writer.py:131 | Excel Written Successfully with consolidated results!
+2026-04-28 10:43:08,900 | INFO | uploade_to_s3.py | uploade_to_s3.py:53 | Successfully uploaded to S3: https://boomai-bucket.s3.ap-south-1.amazonaws.com/outputs/circor_2_att6-ai-bom-73fd48-response.xlsx
+2026-04-28 10:43:08,900 | INFO | api_router.py | api_router.py:43 | /bom_generation api completed | status = 200 | api response = success
+2026-04-28 11:07:31,876 | INFO | rag_llm_connecter.py | rag_llm_connector.py:150 | Exce Question:['Material test certificate (MTC)', 'Chemical composition']....
+2026-04-28 11:07:32,042 | INFO | rag_llm_connecter.py | rag_llm_connector.py:166 | Collection 'att_7_editable' does not exist. Creating and generating embeddings.
+2026-04-28 11:09:11,193 | INFO | excel_writer.py | excel_writer.py:131 | Excel Written Successfully with consolidated results!
+2026-04-28 11:09:11,806 | INFO | uploade_to_s3.py | uploade_to_s3.py:53 | Successfully uploaded to S3: https://boomai-bucket.s3.ap-south-1.amazonaws.com/outputs/Att_7_question-ai-bom-18645b-response.xlsx
+2026-04-28 11:09:11,809 | INFO | api_router.py | api_router.py:43 | /bom_generation api completed | status = 200 | api response = success
+2026-04-28 11:17:26,377 | INFO | rag_llm_connecter.py | rag_llm_connector.py:150 | Exce Question:['Material test certificate (MTC)', 'reterive the chemical  properties']....
+2026-04-28 11:17:26,451 | INFO | rag_llm_connecter.py | rag_llm_connector.py:161 | Collection 'att_7_editable' exists. Skipping embedding generation.
+2026-04-28 11:18:15,865 | INFO | excel_writer.py | excel_writer.py:131 | Excel Written Successfully with consolidated results!
+2026-04-28 11:18:16,656 | INFO | uploade_to_s3.py | uploade_to_s3.py:53 | Successfully uploaded to S3: https://boomai-bucket.s3.ap-south-1.amazonaws.com/outputs/Att_7_question-ai-bom-2803f8-response.xlsx
+2026-04-28 11:18:16,656 | INFO | api_router.py | api_router.py:43 | /bom_generation api completed | status = 200 | api response = success
+2026-04-28 11:28:08,197 | INFO | rag_llm_connecter.py | rag_llm_connector.py:150 | Exce Question:['Material test certificate (MTC)', 'reterive the chemical  and mechanical properties']....
+2026-04-28 11:28:08,209 | INFO | rag_llm_connecter.py | rag_llm_connector.py:161 | Collection 'att_7_editable' exists. Skipping embedding generation.
+2026-04-28 11:28:57,875 | INFO | excel_writer.py | excel_writer.py:131 | Excel Written Successfully with consolidated results!
+2026-04-28 11:28:58,306 | INFO | uploade_to_s3.py | uploade_to_s3.py:53 | Successfully uploaded to S3: https://boomai-bucket.s3.ap-south-1.amazonaws.com/outputs/att_7_question-ai-bom-39f857-response.xlsx
+2026-04-28 11:28:58,309 | INFO | api_router.py | api_router.py:43 | /bom_generation api completed | status = 200 | api response = success
+2026-04-28 12:20:03,147 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-04-28 12:20:04,063 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-28 12:20:04,165 | INFO | main.py | main.py:75 | 
+Backend successfully running on: http://0.0.0.0:8001/docs
+
+2026-04-28 12:20:04,421 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-28 12:22:20,911 | INFO | rag_llm_connecter.py | rag_llm_connector.py:150 | Exce Question:['Material test certificate (MTC)', 'reterive the chemical  and mechanical properties']....
+2026-04-28 12:22:22,242 | INFO | rag_llm_connecter.py | rag_llm_connector.py:161 | Collection 'att_7_editable' exists. Skipping embedding generation.
+2026-04-28 12:29:09,506 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-04-28 12:29:10,119 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-28 12:29:10,157 | INFO | main.py | main.py:75 | 
+Backend successfully running on: http://0.0.0.0:8001/docs
+
+2026-04-28 12:29:10,199 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-28 12:29:49,445 | INFO | rag_llm_connecter.py | rag_llm_connector.py:150 | Exce Question:['reterive the primary ntity or project name from the document metadata?,', 'reterive the scope for painting specifications?,', 'What are the stream parameters such as flow, temperature, and pressure?,', 'What are the water parameters such as flow, temperature, and pressure?,', 'reterive Techcnical data from the general data of item?,']....
+2026-04-28 12:29:49,459 | INFO | rag_llm_connecter.py | rag_llm_connector.py:166 | Collection 'BHEL_Client_trial' does not exist. Creating and generating embeddings.
+2026-04-28 12:41:36,338 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-04-28 12:41:36,807 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-28 12:41:36,823 | INFO | main.py | main.py:75 | 
+Backend successfully running on: http://0.0.0.0:8001/docs
+
+2026-04-28 12:41:36,856 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-28 12:41:42,754 | INFO | rag_llm_connecter.py | rag_llm_connector.py:150 | Exce Question:['reterive the primary ntity or project name from the document metadata?,', 'reterive the scope for painting specifications?,', 'What are the stream parameters such as flow, temperature, and pressure?,', 'What are the water parameters such as flow, temperature, and pressure?,', 'reterive Techcnical data from the general data of item?,']....
+2026-04-28 12:41:42,769 | INFO | rag_llm_connecter.py | rag_llm_connector.py:166 | Collection 'BHEL_Client_testing' does not exist. Creating and generating embeddings.
+2026-04-28 14:38:12,750 | INFO | excel_writer.py | excel_writer.py:131 | Excel Written Successfully with consolidated results!
+2026-04-28 14:38:13,401 | INFO | uploade_to_s3.py | uploade_to_s3.py:53 | Successfully uploaded to S3: https://boomai-bucket.s3.ap-south-1.amazonaws.com/outputs/circor_2_question_BHEL-ai-bom-5c3664-response.xlsx
+2026-04-28 14:38:13,405 | INFO | api_router.py | api_router.py:43 | /bom_generation api completed | status = 200 | api response = success
+2026-04-28 15:11:23,570 | INFO | rag_llm_connecter.py | rag_llm_connector.py:150 | Exce Question:['reterive the primary ntity or project name from the document metadata?,', 'reterive the scope for painting specifications?,', 'What are the stream parameters such as flow, temperature, and pressure?,', 'What are the water parameters such as flow, temperature, and pressure?,', 'reterive Techcnical data from the general data of item?,']....
+2026-04-28 15:11:24,835 | INFO | rag_llm_connecter.py | rag_llm_connector.py:161 | Collection 'BHEL_Spec' exists. Skipping embedding generation.
+2026-04-28 15:39:36,385 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-04-28 15:39:46,421 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-28 15:39:46,621 | INFO | main.py | main.py:75 | 
+Backend successfully running on: http://0.0.0.0:8001/docs
+
+2026-04-28 15:39:47,111 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-28 15:43:09,267 | INFO | chat_ai_model | chat_ai_model.py:122 | chatbot response comepleted!
+2026-04-28 15:43:09,267 | INFO | chat_ai_model | chat_ai_model.py:123 | chatbot api completed | status = 200 | api response = success
+2026-04-28 15:43:35,989 | INFO | chat_ai_model | chat_ai_model.py:122 | chatbot response comepleted!
+2026-04-28 15:43:35,989 | INFO | chat_ai_model | chat_ai_model.py:123 | chatbot api completed | status = 200 | api response = success
+2026-04-28 15:44:14,031 | INFO | chat_ai_model | chat_ai_model.py:122 | chatbot response comepleted!
+2026-04-28 15:44:14,033 | INFO | chat_ai_model | chat_ai_model.py:123 | chatbot api completed | status = 200 | api response = success
+2026-04-28 15:46:33,448 | INFO | chat_ai_model | chat_ai_model.py:122 | chatbot response comepleted!
+2026-04-28 15:46:33,448 | INFO | chat_ai_model | chat_ai_model.py:123 | chatbot api completed | status = 200 | api response = success
+2026-04-28 15:47:10,167 | INFO | chat_ai_model | chat_ai_model.py:122 | chatbot response comepleted!
+2026-04-28 15:47:10,167 | INFO | chat_ai_model | chat_ai_model.py:123 | chatbot api completed | status = 200 | api response = success
+2026-04-28 15:48:07,666 | INFO | chat_ai_model | chat_ai_model.py:122 | chatbot response comepleted!
+2026-04-28 15:48:07,666 | INFO | chat_ai_model | chat_ai_model.py:123 | chatbot api completed | status = 200 | api response = success
+2026-04-28 15:49:48,589 | INFO | chat_ai_model | chat_ai_model.py:122 | chatbot response comepleted!
+2026-04-28 15:49:48,589 | INFO | chat_ai_model | chat_ai_model.py:123 | chatbot api completed | status = 200 | api response = success
+2026-04-28 15:54:36,701 | INFO | chat_ai_model | chat_ai_model.py:122 | chatbot response comepleted!
+2026-04-28 15:54:36,705 | INFO | chat_ai_model | chat_ai_model.py:123 | chatbot api completed | status = 200 | api response = success
+2026-04-28 15:57:26,175 | INFO | chat_ai_model | chat_ai_model.py:122 | chatbot response comepleted!
+2026-04-28 15:57:26,175 | INFO | chat_ai_model | chat_ai_model.py:123 | chatbot api completed | status = 200 | api response = success
+2026-04-28 15:59:13,247 | INFO | chat_ai_model | chat_ai_model.py:122 | chatbot response comepleted!
+2026-04-28 15:59:13,247 | INFO | chat_ai_model | chat_ai_model.py:123 | chatbot api completed | status = 200 | api response = success
+2026-04-28 16:02:11,970 | INFO | chat_ai_model | chat_ai_model.py:122 | chatbot response comepleted!
+2026-04-28 16:02:11,970 | INFO | chat_ai_model | chat_ai_model.py:123 | chatbot api completed | status = 200 | api response = success
+2026-04-28 16:04:03,561 | INFO | chat_ai_model | chat_ai_model.py:122 | chatbot response comepleted!
+2026-04-28 16:04:03,561 | INFO | chat_ai_model | chat_ai_model.py:123 | chatbot api completed | status = 200 | api response = success
+2026-04-28 16:05:42,992 | INFO | chat_ai_model | chat_ai_model.py:122 | chatbot response comepleted!
+2026-04-28 16:05:42,999 | INFO | chat_ai_model | chat_ai_model.py:123 | chatbot api completed | status = 200 | api response = success
+2026-04-28 16:06:32,206 | INFO | chat_ai_model | chat_ai_model.py:122 | chatbot response comepleted!
+2026-04-28 16:06:32,206 | INFO | chat_ai_model | chat_ai_model.py:123 | chatbot api completed | status = 200 | api response = success
+2026-04-28 16:09:45,937 | INFO | chat_ai_model | chat_ai_model.py:122 | chatbot response comepleted!
+2026-04-28 16:09:45,939 | INFO | chat_ai_model | chat_ai_model.py:123 | chatbot api completed | status = 200 | api response = success
+2026-04-28 16:11:49,042 | INFO | chat_ai_model | chat_ai_model.py:122 | chatbot response comepleted!
+2026-04-28 16:11:49,042 | INFO | chat_ai_model | chat_ai_model.py:123 | chatbot api completed | status = 200 | api response = success
+2026-04-28 16:14:15,069 | INFO | chat_ai_model | chat_ai_model.py:122 | chatbot response comepleted!
+2026-04-28 16:14:15,078 | INFO | chat_ai_model | chat_ai_model.py:123 | chatbot api completed | status = 200 | api response = success
+2026-04-28 16:16:18,646 | INFO | chat_ai_model | chat_ai_model.py:122 | chatbot response comepleted!
+2026-04-28 16:16:18,646 | INFO | chat_ai_model | chat_ai_model.py:123 | chatbot api completed | status = 200 | api response = success
+2026-04-28 16:17:46,251 | INFO | chat_ai_model | chat_ai_model.py:122 | chatbot response comepleted!
+2026-04-28 16:17:46,251 | INFO | chat_ai_model | chat_ai_model.py:123 | chatbot api completed | status = 200 | api response = success
+2026-04-28 16:19:06,667 | INFO | chat_ai_model | chat_ai_model.py:122 | chatbot response comepleted!
+2026-04-28 16:19:06,670 | INFO | chat_ai_model | chat_ai_model.py:123 | chatbot api completed | status = 200 | api response = success
+2026-04-28 16:19:39,904 | INFO | chat_ai_model | chat_ai_model.py:122 | chatbot response comepleted!
+2026-04-28 16:19:39,904 | INFO | chat_ai_model | chat_ai_model.py:123 | chatbot api completed | status = 200 | api response = success
+2026-04-28 16:22:09,865 | INFO | chat_ai_model | chat_ai_model.py:122 | chatbot response comepleted!
+2026-04-28 16:22:09,866 | INFO | chat_ai_model | chat_ai_model.py:123 | chatbot api completed | status = 200 | api response = success
+2026-04-28 16:22:54,483 | INFO | chat_ai_model | chat_ai_model.py:122 | chatbot response comepleted!
+2026-04-28 16:22:54,483 | INFO | chat_ai_model | chat_ai_model.py:123 | chatbot api completed | status = 200 | api response = success
+2026-04-28 16:25:21,592 | INFO | chat_ai_model | chat_ai_model.py:122 | chatbot response comepleted!
+2026-04-28 16:25:21,594 | INFO | chat_ai_model | chat_ai_model.py:123 | chatbot api completed | status = 200 | api response = success
+2026-04-28 16:26:33,600 | INFO | chat_ai_model | chat_ai_model.py:122 | chatbot response comepleted!
+2026-04-28 16:26:33,600 | INFO | chat_ai_model | chat_ai_model.py:123 | chatbot api completed | status = 200 | api response = success
+2026-04-28 16:28:26,886 | INFO | chat_ai_model | chat_ai_model.py:122 | chatbot response comepleted!
+2026-04-28 16:28:26,886 | INFO | chat_ai_model | chat_ai_model.py:123 | chatbot api completed | status = 200 | api response = success
+2026-04-28 16:30:21,439 | INFO | chat_ai_model | chat_ai_model.py:122 | chatbot response comepleted!
+2026-04-28 16:30:21,439 | INFO | chat_ai_model | chat_ai_model.py:123 | chatbot api completed | status = 200 | api response = success
+2026-04-28 16:32:24,153 | INFO | chat_ai_model | chat_ai_model.py:122 | chatbot response comepleted!
+2026-04-28 16:32:24,154 | INFO | chat_ai_model | chat_ai_model.py:123 | chatbot api completed | status = 200 | api response = success
+2026-04-28 16:34:50,638 | INFO | chat_ai_model | chat_ai_model.py:122 | chatbot response comepleted!
+2026-04-28 16:34:50,638 | INFO | chat_ai_model | chat_ai_model.py:123 | chatbot api completed | status = 200 | api response = success
+2026-04-28 16:35:53,115 | INFO | chat_ai_model | chat_ai_model.py:122 | chatbot response comepleted!
+2026-04-28 16:35:53,116 | INFO | chat_ai_model | chat_ai_model.py:123 | chatbot api completed | status = 200 | api response = success
+2026-04-28 16:36:37,183 | INFO | chat_ai_model | chat_ai_model.py:122 | chatbot response comepleted!
+2026-04-28 16:36:37,184 | INFO | chat_ai_model | chat_ai_model.py:123 | chatbot api completed | status = 200 | api response = success
+2026-04-28 16:40:40,085 | INFO | chat_ai_model | chat_ai_model.py:122 | chatbot response comepleted!
+2026-04-28 16:40:40,086 | INFO | chat_ai_model | chat_ai_model.py:123 | chatbot api completed | status = 200 | api response = success
+2026-04-28 16:45:43,578 | INFO | chat_ai_model | chat_ai_model.py:122 | chatbot response comepleted!
+2026-04-28 16:45:43,579 | INFO | chat_ai_model | chat_ai_model.py:123 | chatbot api completed | status = 200 | api response = success
+2026-04-28 16:48:38,578 | INFO | chat_ai_model | chat_ai_model.py:122 | chatbot response comepleted!
+2026-04-28 16:48:38,578 | INFO | chat_ai_model | chat_ai_model.py:123 | chatbot api completed | status = 200 | api response = success
+2026-04-28 16:50:01,727 | INFO | chat_ai_model | chat_ai_model.py:122 | chatbot response comepleted!
+2026-04-28 16:50:01,728 | INFO | chat_ai_model | chat_ai_model.py:123 | chatbot api completed | status = 200 | api response = success
+2026-04-28 16:50:49,173 | INFO | chat_ai_model | chat_ai_model.py:122 | chatbot response comepleted!
+2026-04-28 16:50:49,173 | INFO | chat_ai_model | chat_ai_model.py:123 | chatbot api completed | status = 200 | api response = success
+2026-04-29 11:01:09,201 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-04-29 11:01:11,959 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-29 11:01:12,064 | INFO | main.py | main.py:75 | 
+Backend successfully running on: http://0.0.0.0:8001/docs
+
+2026-04-29 11:01:12,303 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-29 11:12:32,244 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-04-29 11:12:32,801 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-29 11:12:32,894 | INFO | main.py | main.py:75 | 
+Backend successfully running on: http://0.0.0.0:8001/docs
+
+2026-04-29 11:12:33,029 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-29 11:13:42,437 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-04-29 11:13:42,965 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-29 11:13:43,002 | INFO | main.py | main.py:75 | 
+Backend successfully running on: http://0.0.0.0:8001/docs
+
+2026-04-29 11:13:43,054 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-29 11:14:43,246 | ERROR | chat_ai_model | chat_ai_model.py:129 | chatbot Response failed: 'NoneType' object is not subscriptable
+2026-04-29 11:15:20,686 | ERROR | chat_ai_model | chat_ai_model.py:129 | chatbot Response failed: 'NoneType' object is not subscriptable
+2026-04-29 11:17:22,565 | INFO | default-summary-question | default_question.py:67 | summary default question Loaded successfully.
+2026-04-29 11:18:00,614 | ERROR | summary agent | summary_default_query_agent.py:92 | Extraction failed: Connection error.
+2026-04-29 11:18:00,615 | ERROR | summary-model | summary_model.py:95 | general_summary is required when modify=False
+2026-04-29 11:20:20,586 | INFO | default-summary-question | default_question.py:67 | summary default question Loaded successfully.
+2026-04-29 11:20:59,103 | ERROR | summary agent | summary_default_query_agent.py:92 | Extraction failed: Connection error.
+2026-04-29 11:20:59,103 | ERROR | summary-model | summary_model.py:95 | general_summary is required when modify=False
+2026-04-29 11:30:00,176 | INFO | RAG Logs | create_vector.py:71 | Emebeding input document_id: BHEL Spec..pdf
+2026-04-29 11:30:00,178 | INFO | RAG Logs | create_vector.py:74 | sanitaized collection name: BHEL_Spec
+2026-04-29 11:30:00,184 | INFO | RAG Logs | create_vector.py:81 | Collection 'BHEL_Spec' exists. Skipping.
+2026-04-29 11:30:49,611 | ERROR | chat_ai_model | chat_ai_model.py:129 | chatbot Response failed: list indices must be integers or slices, not str
+2026-04-29 11:38:07,949 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-04-29 11:38:08,539 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-29 11:38:08,568 | INFO | main.py | main.py:75 | 
+Backend successfully running on: http://0.0.0.0:8001/docs
+
+2026-04-29 11:38:08,603 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-29 11:39:22,590 | INFO | default-summary-question | default_question.py:67 | summary default question Loaded successfully.
+2026-04-29 11:39:23,822 | ERROR | summary agent | summary_default_query_agent.py:92 | Extraction failed: Error code: 401
+2026-04-29 11:39:23,822 | ERROR | summary-model | summary_model.py:95 | general_summary is required when modify=False
+2026-04-29 11:39:54,713 | ERROR | chat_ai_model | chat_ai_model.py:129 | chatbot Response failed: 'NoneType' object is not subscriptable
+2026-04-29 12:02:17,516 | INFO | RAG Logs | create_vector.py:71 | Emebeding input document_id: BHEL Spec..pdf
+2026-04-29 12:02:17,516 | INFO | RAG Logs | create_vector.py:74 | sanitaized collection name: BHEL_Spec
+2026-04-29 12:02:17,634 | INFO | RAG Logs | create_vector.py:81 | Collection 'BHEL_Spec' exists. Skipping.
+2026-04-29 12:02:30,199 | ERROR | chat_ai_model | chat_ai_model.py:129 | chatbot Response failed: list indices must be integers or slices, not str
+2026-04-29 13:12:37,178 | INFO | RAG Logs | create_vector.py:71 | Emebeding input document_id: BHEL Spec..pdf
+2026-04-29 13:12:37,178 | INFO | RAG Logs | create_vector.py:74 | sanitaized collection name: BHEL_Spec
+2026-04-29 13:12:37,185 | INFO | RAG Logs | create_vector.py:81 | Collection 'BHEL_Spec' exists. Skipping.
+2026-04-29 13:12:46,014 | ERROR | chat_ai_model | chat_ai_model.py:129 | chatbot Response failed: list indices must be integers or slices, not str
+2026-04-29 14:33:42,352 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-04-29 14:33:51,375 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-29 14:33:52,151 | INFO | main.py | main.py:75 | 
+Backend successfully running on: http://0.0.0.0:8001/docs
+
+2026-04-29 14:33:52,798 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-29 14:37:03,784 | INFO | chat_ai_model | chat_ai_model.py:122 | chatbot response comepleted!
+2026-04-29 14:37:03,785 | INFO | chat_ai_model | chat_ai_model.py:123 | chatbot api completed | status = 200 | api response = success
+2026-04-29 14:38:56,665 | INFO | default-summary-question | default_question.py:67 | summary default question Loaded successfully.
+2026-04-29 14:43:54,011 | INFO | rag_llm_connecter.py | rag_llm_connector.py:150 | Exce Question:['reterive the primary ntity or project name from the document metadata?,', 'reterive the scope for painting specifications?,', 'What are the stream parameters such as flow, temperature, and pressure?,', 'What are the water parameters such as flow, temperature, and pressure?,', 'reterive Techcnical data from the general data of item?,']....
+2026-04-29 14:43:54,029 | INFO | rag_llm_connecter.py | rag_llm_connector.py:166 | Collection '1777454043047-BHEL_Client_trial' does not exist. Creating and generating embeddings.
+2026-04-29 14:45:12,627 | INFO | default-summary-question | default_question.py:67 | summary default question Loaded successfully.
+2026-04-29 14:48:47,795 | INFO | chat_ai_model | chat_ai_model.py:122 | chatbot response comepleted!
+2026-04-29 14:48:47,797 | INFO | chat_ai_model | chat_ai_model.py:123 | chatbot api completed | status = 200 | api response = success
+2026-04-29 15:01:41,856 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-04-29 15:01:45,391 | INFO | main.py | main.py:31 | main file reloaded done!

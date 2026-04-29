@@ -1,0 +1,163 @@
+{
+    "job_summary": {
+        "document_name": "circor_2_question_BHEL.xlsx",
+        "full_path": "D:/.AI-EzioProject/development/circor_dev_2/src/s3/client_documents/circor_2_question_BHEL.xlsx",
+        "total_pages_processed": "inprogres",
+        "execution_time_raw": 0.0,
+        "execution_time_formatted": "0.0s",
+        "total_chunks_extracted": 3,
+        "timestamp": "2026-04-26 12:21:12"
+    },
+    "extracted_data": {
+        "question_answer": [
+            "\n            Topic: nan\n            Question:     reterive the primary ntity or project name from the document metadata?,\n            Answer: nan\n            ",
+            "\n            Topic: nan\n            Question:     reterive the scope for painting specifications?,\n            Answer: nan\n            ",
+            "\n            Topic: nan\n            Question:     What are the stream parameters such as flow, temperature, and pressure?,\n            Answer: nan\n            ",
+            "\n            Topic: nan\n            Question:     What are the water parameters such as flow, temperature, and pressure?,\n            Answer: nan\n            ",
+            "\n            Topic: nan\n            Question:     reterive Techcnical data from the general data of item?,\n            Answer: nan\n            ",
+            "\n            Topic: nan\n            Question:     What are the operating and mechanical data for the stream condition rating?,\n            Answer: nan\n            ",
+            "\n            Topic: nan\n            Question:     What are the operating and mechanical data for the stream condition size?,\n            Answer: nan\n            ",
+            "\n            Topic: nan\n            Question:     What is the spray water body material?,\n            Answer: nan\n            ",
+            "\n            Topic: nan\n            Question:     What is the spray water trim?,\n            Answer: nan\n            ",
+            "\n            Topic: nan\n            Question:     What is the spray water size?,\n            Answer: nan\n            ",
+            "\n            Topic: nan\n            Question:     reterivet the technical table data of spray water actuator and their types,\n            Answer: nan\n            ",
+            "\n            Topic: nan\n            Question:     What are the accessories?,\n            Answer: nan\n            ",
+            "\n            Topic: nan\n            Question:     What are the inspection and NDT requirements?,\n            Answer: nan\n            ",
+            "\n            Topic: nan\n            Question:     What are the buyer’s terms of payment?,\n            Answer: nan\n            ",
+            "\n            Topic: nan\n            Question:     What is the SSC delivery schedule?,\n            Answer: nan\n            ",
+            "\n            Topic: nan\n            Question:     What is included in the price format?,\n            Answer: nan\n            ",
+            "\n            Topic: nan\n            Question:     What is the warranty for SSC?,\n            Answer: nan\n            ",
+            "\n            Topic: nan\n            Question:     What are the contractor liquidated damages?,\n            Answer: nan\n            ",
+            "\n            Topic: nan\n            Question:     What are the quality control and inspection testing?,\n            Answer: nan\n            ",
+            "\n            Topic: nan\n            Question:     reterive the data fro approval?,\n            Answer: nan\n            ",
+            "\n            Topic: nan\n            Question:     What are the packing and dispatch requirements for bidders?,\n            Answer: nan\n            ",
+            "\n            Topic: nan\n            Question:     What is the compliance certificate for Clause 20(B)?,\n            Answer: nan\n            ",
+            "\n            Topic: nan\n            Question:     reterive the pre-qulification of independent laboratory,\n            Answer: nan\n            ",
+            "\n            Topic: nan\n            Question:     reterive the compensation damages,\n            Answer: nan\n            "
+        ],
+        "metadata": [
+            {
+                "topic": NaN,
+                "page": NaN
+            },
+            {
+                "topic": NaN,
+                "page": NaN
+            },
+            {
+                "topic": NaN,
+                "page": NaN
+            },
+            {
+                "topic": NaN,
+                "page": NaN
+            },
+            {
+                "topic": NaN,
+                "page": NaN
+            },
+            {
+                "topic": NaN,
+                "page": NaN
+            },
+            {
+                "topic": NaN,
+                "page": NaN
+            },
+            {
+                "topic": NaN,
+                "page": NaN
+            },
+            {
+                "topic": NaN,
+                "page": NaN
+            },
+            {
+                "topic": NaN,
+                "page": NaN
+            },
+            {
+                "topic": NaN,
+                "page": NaN
+            },
+            {
+                "topic": NaN,
+                "page": NaN
+            },
+            {
+                "topic": NaN,
+                "page": NaN
+            },
+            {
+                "topic": NaN,
+                "page": NaN
+            },
+            {
+                "topic": NaN,
+                "page": NaN
+            },
+            {
+                "topic": NaN,
+                "page": NaN
+            },
+            {
+                "topic": NaN,
+                "page": NaN
+            },
+            {
+                "topic": NaN,
+                "page": NaN
+            },
+            {
+                "topic": NaN,
+                "page": NaN
+            },
+            {
+                "topic": NaN,
+                "page": NaN
+            },
+            {
+                "topic": NaN,
+                "page": NaN
+            },
+            {
+                "topic": NaN,
+                "page": NaN
+            },
+            {
+                "topic": NaN,
+                "page": NaN
+            },
+            {
+                "topic": NaN,
+                "page": NaN
+            }
+        ],
+        "ids": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21",
+            "22",
+            "23"
+        ]
+    }
+}

@@ -1,0 +1,30 @@
+#"all-MiniLM-L6-v2"
+embedding:
+  embedding_model : "multi-qa-mpnet-base-dot-v1"
+  batch_size : 8
+  progress_bar : False
+
+chunking:
+  chunk_size : 400
+  chunk_overlap : 100
+
+vector_db:
+  top_k: 3
+  metadata : 
+    hnsw:space: "cosine"    
+
+vector_reterival:
+  batch_size : 5
+
+local_model_base_url:
+  base_url: "175.155.64.237:19590" #"222.235.180.221:40406"
+  Ezio_llm_api_key : "Ezio-future-ai-api-key-qwenu2o3423nduasdcwiujhiuc21"
+  model_path: "/home/ubuntu/circor_qwen_model/model"
+
+deployment:
+  host: "0.0.0.0"
+  port: 8001
+
+default_summary_question:
+  path_: "summary_default.json"
+  re_ranking_summary_query : "generate a summary."
