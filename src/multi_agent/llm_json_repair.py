@@ -2,8 +2,14 @@ Json_repair_prompt = """You are a JSON repair tool.
 Your task:
 - Fix invalid JSON.
 - Do NOT add, remove, or infer any data.
-- Preserve all keys and values exactly as given.
+- Preserve all keys and values exactly as given, EXCEPT for unit symbols.
 - Only correct syntax issues (quotes, commas, brackets, nulls, etc.)
+
+UNIT CONVERSION RULES:
+- When encountering measurements, always convert symbols to full words. 
+- Replace the double quote symbol (") within a value with 'inches'.
+- Replace the single quote symbol (') within a value with 'feet'.
+- Example: Change [1"] to [1 inches] and [5'] to [5 feet].
 
 STRICT RULES:
 - Output ONLY valid JSON.
@@ -15,11 +21,11 @@ STRICT RULES:
 - If value is incomplete, keep it as is or set to null.
 
 Ensure:
-- Proper double quotes for keys and strings
-- Replace Python None/True/False → null/true/false
-- Fix trailing commas
-- Close brackets properly
+- Proper double quotes for keys and strings.
+- Replace Python None/True/False → null/true/false.
+- Fix trailing commas and close brackets properly.
 """
+
 
 user_json_prompt = """
 input_json: {json_data}
@@ -59,5 +65,8 @@ async def json_parse_repairing(json_docs):
         return json.loads(content)
     
     except Exception as E:
-        print(f"Json repairng llm is faild: {str(E)} | input_content: {json_docs}")
+        print(f"Json repairng llm is faild: {str(E)} | input_content: {json_docs} \n llm json repaired content: {content}")
         return []
+    
+
+    

@@ -52,7 +52,7 @@ async def convert_pageimage_to_base64(page_image):
     rgb_image.save(buffer, format="JPEG", quality=85, optimize=True)
     return base64.b64encode(buffer.getvalue()).decode("utf-8")
 
-async def call_vllm_model_infer(images: list, batch_num):    
+async def call_vllm_model_infer(images: list, batch_num, collection_name, batch_meta):    
     # Standard headers with Authorization
     headers = {
         "Content-Type": "application/json",
@@ -63,12 +63,23 @@ async def call_vllm_model_infer(images: list, batch_num):
     output_dir = "vllm_output"
     os.makedirs(output_dir, exist_ok=True)
     
-    print(f"vLLM: Processing batch {batch_num} ({len(images)} images)")
+    #to save the image binary for chatbot vllm model.
+    encoded_dir = "encoded_images"
+    os.makedirs(encoded_dir, exist_ok=True)
 
-    for i, page_image in enumerate(images, start=1):
+    print(f"vLLM: Processing batch {batch_num} ({len(images)} images)")
+    print("[+]Batch meta: ",batch_meta)
+    for page_image, actual_page_num in zip(images, batch_meta):
         start_page = time.time()
         try:
             image_base64 = await convert_pageimage_to_base64(page_image)
+
+            # --- Saving the Base64 string to file ---
+            file_name = f"{collection_name}_page_{actual_page_num}.txt"
+            save_path = os.path.join(encoded_dir, file_name)
+            
+            with open(save_path, "w", encoding="utf-8") as f:
+                f.write(image_base64)
 
             data = {
                 "model": "Qwen/Qwen3-VL-8B-Instruct",
@@ -96,10 +107,10 @@ async def call_vllm_model_infer(images: list, batch_num):
             extracted_text = result["choices"][0]["message"]["content"]
             vllm_extracted_data.append(extracted_text)
             
-            print(f"  - Page {i} success ({time.time()-start_page:.2f}s)")
+            print(f"  - Page {actual_page_num} success ({time.time()-start_page:.2f}s)")
 
         except Exception as e:
-            print(f"  - Error on Page {i}: {str(e)}")
+            print(f"  - Error on Page {actual_page_num}: {str(e)}")
             vllm_extracted_data.append(f"ERROR: {e}")
 
     # Save results to JSON
@@ -107,6 +118,7 @@ async def call_vllm_model_infer(images: list, batch_num):
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump({"batch_id": batch_num, "data": vllm_extracted_data}, f, indent=4)
 
+    
     return vllm_extracted_data
 
 
@@ -115,3 +127,5 @@ async def call_vllm_model_infer(images: list, batch_num):
 
 
 
+# import asyncio
+# asyncio.run(call_vllm_model_infer(images=r"C:\Users\Arvind\Downloads\ilovepdf_pages-to-jpg\BHEL Spec.-32-39_page-0006.jpg", batch_num=35))

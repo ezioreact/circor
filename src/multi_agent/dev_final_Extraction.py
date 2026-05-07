@@ -336,6 +336,7 @@ from collections import Counter
 from src.multi_agent.vllm_model import call_vllm_model_infer
 from src.multi_agent.llm_model import call_llm_model_infer
 from src.multi_agent.embeddings import TenderRAG
+from src.multi_agent.s3_save_image_ import uploade_to_s3
 
 
 class PDFSmartProcessor:
@@ -404,12 +405,12 @@ class PDFSmartProcessor:
         return "\n".join(cleaned_lines)
 
 
-    async def extract_table_json(self, images_to_process, batch_num):
+    async def extract_table_json(self, images_to_process, batch_num, collections, batch_meta):
         """
         Calls VLLM for a batch of images.
         """
         # Get the list of raw JSON strings from vLLM
-        vllm_responses = await call_vllm_model_infer(images_to_process, batch_num)
+        vllm_responses = await call_vllm_model_infer(images_to_process, batch_num, collections, batch_meta)
         
         cleaned_responses = []
         for raw_json in vllm_responses:
@@ -460,12 +461,18 @@ class PDFSmartProcessor:
                         # --- TIME: RENDERING ---
                         t_render = time.time()
                         # Dropped to 150 resolution for speed as discussed
-                        img = page.to_image(resolution=300) 
+                        img = page.to_image(resolution=150) 
 
                         #image save
                         image_filename = f"page_{page_num}.png"
                         image_save_path = output_dir / image_filename
                         img.save(str(image_save_path), format="PNG")
+
+                        try:
+                            await uploade_to_s3(local_file_path=str(image_save_path),collection=collection_name)
+                        except Exception as E:
+                            print("[-]Exception uploade S3: ",str(E))
+
                         print("Imgae saved path: ",image_save_path)
                         batch_images.append(img)
                         batch_metas.append(page_num)
@@ -500,7 +507,7 @@ class PDFSmartProcessor:
                     t_vllm = time.time()
                     
                     # IMPORTANT: Ensure call_vllm_model_infer returns a LIST of results
-                    batch_responses = await self.extract_table_json(batch_images,batch_index) 
+                    batch_responses = await self.extract_table_json(batch_images,batch_index, collection_name, batch_metas) 
                     
                     metrics["vllm_inference"] += (time.time() - t_vllm)
                     

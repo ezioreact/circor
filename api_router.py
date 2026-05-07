@@ -6,7 +6,7 @@ from fastapi.responses import JSONResponse, StreamingResponse
 from src.api_body.pydantic_structure import BOMRequest,BOMResponse,test_llm_request
 from src.embeddnigs.vector_reterival.reterival import vector_retrieval_function
 from src.embeddnigs.vector_creation.create_vector import create_vector_embedding
-from src.api_body.pydantic_structure import VectorRetrievalRequest, chat_ai_Request,chat_ai_Response
+from src.api_body.pydantic_structure import VectorRetrievalRequest, chat_ai_Request,chat_ai_Response, ExtrcationResult
 from src.api_body.pydantic_structure import summary_request, summary_response
 from src.api_body.pydantic_structure import question_request
 from src.rounting_pipeline.rag_llm_connector import start_proccess
@@ -47,14 +47,43 @@ async def bom_generation_api(user_request: BOMRequest, backgroun_task: Backgroun
     )
 
 
+# @production_api.post("/prod/chatbot" , response_model=chat_ai_Response)
+# async def Chatbot_api(user_chat_request:chat_ai_Request):
+#     chatai_response_ = await chatbot_ai.llm_chat_engine(S3buckt_link=str(user_chat_request.document),
+#                                                        user_chat_query=str(user_chat_request.query),
+#                                                        document_type=user_chat_request.doc_type)
+    
+#     print("Chat ai response: ",json.dumps(chatai_response_,indent=4))
+
+#     return chat_ai_Response(id=user_chat_request.id,
+#                                          ai_response=[str(a["answer"]) for a in chatai_response_["assistant"]],
+#                                          page=[str(p['page']) for p in chatai_response_["assistant"]])
+
 @production_api.post("/prod/chatbot" , response_model=chat_ai_Response)
 async def Chatbot_api(user_chat_request:chat_ai_Request):
     chatai_response_ = await chatbot_ai.llm_chat_engine(S3buckt_link=str(user_chat_request.document),
                                                        user_chat_query=str(user_chat_request.query),
-                                                       document_type=user_chat_request.doc_type)
+                                                       document_type=user_chat_request.doc_type,
+                                                       where=user_chat_request.filter
+                                                       )
+    
+    # print("Chat ai response: ",json.dumps(chatai_response_,indent=4))
+    result = [
+        ExtrcationResult(
+            question=item.get("question",""),
+            answer=item.get("answer",""),
+            page=str(item.get("page","")),
+            status=item.get("status", "unknown"),
+            source=item.get("source","no s3 link available")
+        )for item in chatai_response_["assistant"]
+    ]
+
+    fallback_list = chatai_response_.get("lis_of_answer", [])
     return chat_ai_Response(id=user_chat_request.id,
-                                         ai_response=chatai_response_["assistant"]["answer"],
-                                         page=[str(p) for p in chatai_response_["assistant"]["page"]])
+                            ai_response=result,
+                            filter="none",
+                            list_of_answer=fallback_list)
+
 
 @production_api.post("/prod/summary")
 async def summary_api(request_body_:summary_request):

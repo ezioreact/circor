@@ -1,239 +1,1116 @@
-2026-04-27 12:38:03,490 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
-2026-04-27 12:38:05,315 | INFO | main.py | main.py:31 | main file reloaded done!
-2026-04-27 12:38:05,558 | INFO | main.py | main.py:75 | 
+2026-04-30 13:11:05,382 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-04-30 13:11:08,206 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 13:11:08,409 | INFO | main.py | main.py:75 | 
 Backend successfully running on: http://0.0.0.0:8001/docs
 
-2026-04-27 12:38:29,699 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
-2026-04-27 12:38:30,591 | INFO | main.py | main.py:31 | main file reloaded done!
-2026-04-27 12:38:31,093 | INFO | main.py | main.py:31 | main file reloaded done!
-2026-04-27 12:44:18,295 | INFO | rag_llm_connecter.py | rag_llm_connector.py:150 | Exce Question:['Project name', 'Scope of supply', 'Inspection and test plan (ITP), Quality assurance plan(QAP), Quality plan(QP)', 'PED, ATEX, IP, IECeX, PESO', 'NACE']....
-2026-04-27 12:44:18,847 | INFO | rag_llm_connecter.py | rag_llm_connector.py:166 | Collection 'CORB_DM25066L_Rev_1__5' does not exist. Creating and generating embeddings.
-2026-04-27 15:32:28,059 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
-2026-04-27 15:32:33,956 | INFO | main.py | main.py:31 | main file reloaded done!
-2026-04-27 15:32:34,173 | INFO | main.py | main.py:75 | 
+2026-04-30 13:11:27,382 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-04-30 13:11:28,285 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 13:11:28,515 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 13:15:15,603 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-04-30 13:15:16,524 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 13:15:16,618 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 13:47:44,509 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-04-30 13:47:45,346 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 13:47:45,374 | INFO | main.py | main.py:75 | 
 Backend successfully running on: http://0.0.0.0:8001/docs
 
-2026-04-27 15:32:34,551 | INFO | main.py | main.py:31 | main file reloaded done!
-2026-04-27 15:33:19,298 | INFO | rag_llm_connecter.py | rag_llm_connector.py:150 | Exce Question:['Project name', 'Scope of supply', 'Inspection and test plan (ITP), Quality assurance plan(QAP), Quality plan(QP)', 'PED, ATEX, IP, IECeX, PESO', 'NACE']....
-2026-04-27 15:33:20,130 | INFO | rag_llm_connecter.py | rag_llm_connector.py:166 | Collection 'CORB_1-103' does not exist. Creating and generating embeddings.
-2026-04-27 15:55:25,562 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
-2026-04-27 15:55:30,067 | INFO | main.py | main.py:31 | main file reloaded done!
-2026-04-27 15:55:30,231 | INFO | main.py | main.py:75 | 
+2026-04-30 13:48:02,547 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-04-30 13:48:03,138 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 13:48:03,202 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 13:52:06,436 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-04-30 13:52:06,894 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 13:52:06,986 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 13:54:52,489 | ERROR | chat_ai_model | chat_ai_model.py:132 | chatbot Response failed: Error code: 401
+2026-04-30 13:58:39,402 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-04-30 13:58:41,343 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 13:58:41,578 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 13:59:28,178 | ERROR | chat_ai_model | chat_ai_model.py:132 | chatbot Response failed: Error code: 401
+2026-04-30 14:18:48,018 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-04-30 14:18:48,864 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 14:18:48,895 | INFO | main.py | main.py:75 | 
 Backend successfully running on: http://0.0.0.0:8001/docs
 
-2026-04-27 15:55:30,479 | INFO | main.py | main.py:31 | main file reloaded done!
-2026-04-27 15:55:48,812 | INFO | rag_llm_connecter.py | rag_llm_connector.py:150 | Exce Question:['Project name', 'Scope of supply', 'Inspection and test plan (ITP), Quality assurance plan(QAP), Quality plan(QP)', 'PED, ATEX, IP, IECeX, PESO', 'NACE']....
-2026-04-27 15:55:49,992 | INFO | rag_llm_connecter.py | rag_llm_connector.py:166 | Collection 'CORB_1-103' does not exist. Creating and generating embeddings.
-2026-04-27 15:59:17,897 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
-2026-04-27 15:59:18,358 | INFO | main.py | main.py:31 | main file reloaded done!
-2026-04-27 15:59:18,384 | INFO | main.py | main.py:75 | 
+2026-04-30 14:19:11,002 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-04-30 14:19:11,833 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 14:19:11,944 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 14:22:43,689 | INFO | chat_ai_model | chat_ai_model.py:125 | chatbot response comepleted!
+2026-04-30 14:22:43,690 | INFO | chat_ai_model | chat_ai_model.py:126 | chatbot api completed | status = 200 | api response = success
+2026-04-30 14:25:50,056 | INFO | chat_ai_model | chat_ai_model.py:125 | chatbot response comepleted!
+2026-04-30 14:25:50,057 | INFO | chat_ai_model | chat_ai_model.py:126 | chatbot api completed | status = 200 | api response = success
+2026-04-30 14:47:59,275 | INFO | chat_ai_model | chat_ai_model.py:125 | chatbot response comepleted!
+2026-04-30 14:47:59,291 | INFO | chat_ai_model | chat_ai_model.py:126 | chatbot api completed | status = 200 | api response = success
+2026-04-30 14:52:59,516 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-04-30 14:53:01,267 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 14:53:02,465 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 14:58:42,102 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-04-30 14:58:42,979 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 14:58:43,043 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 14:59:44,799 | INFO | chat_ai_model | chat_ai_model.py:125 | chatbot response comepleted!
+2026-04-30 14:59:44,800 | INFO | chat_ai_model | chat_ai_model.py:126 | chatbot api completed | status = 200 | api response = success
+2026-04-30 15:00:14,420 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-04-30 15:00:14,891 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 15:00:14,948 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 15:01:23,371 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-04-30 15:01:24,371 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 15:01:24,504 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 15:02:07,655 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-04-30 15:02:08,106 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 15:02:08,163 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 15:02:39,529 | INFO | chat_ai_model | chat_ai_model.py:125 | chatbot response comepleted!
+2026-04-30 15:02:39,529 | INFO | chat_ai_model | chat_ai_model.py:126 | chatbot api completed | status = 200 | api response = success
+2026-04-30 15:34:42,258 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-04-30 15:34:42,898 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 15:34:42,953 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 15:34:56,313 | INFO | chat_ai_model | chat_ai_model.py:125 | chatbot response comepleted!
+2026-04-30 15:34:56,314 | INFO | chat_ai_model | chat_ai_model.py:126 | chatbot api completed | status = 200 | api response = success
+2026-04-30 15:36:29,497 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-04-30 15:36:30,373 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 15:36:30,472 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 15:36:44,834 | INFO | chat_ai_model | chat_ai_model.py:125 | chatbot response comepleted!
+2026-04-30 15:36:44,835 | INFO | chat_ai_model | chat_ai_model.py:126 | chatbot api completed | status = 200 | api response = success
+2026-04-30 15:37:48,192 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-04-30 15:37:48,662 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 15:37:48,718 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 15:38:21,277 | INFO | chat_ai_model | chat_ai_model.py:125 | chatbot response comepleted!
+2026-04-30 15:38:21,278 | INFO | chat_ai_model | chat_ai_model.py:126 | chatbot api completed | status = 200 | api response = success
+2026-04-30 15:39:11,015 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-04-30 15:39:11,981 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 15:39:12,112 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 15:39:31,796 | INFO | chat_ai_model | chat_ai_model.py:125 | chatbot response comepleted!
+2026-04-30 15:39:31,796 | INFO | chat_ai_model | chat_ai_model.py:126 | chatbot api completed | status = 200 | api response = success
+2026-04-30 15:48:52,612 | INFO | chat_ai_model | chat_ai_model.py:125 | chatbot response comepleted!
+2026-04-30 15:48:52,612 | INFO | chat_ai_model | chat_ai_model.py:126 | chatbot api completed | status = 200 | api response = success
+2026-04-30 15:49:36,686 | INFO | chat_ai_model | chat_ai_model.py:125 | chatbot response comepleted!
+2026-04-30 15:49:36,686 | INFO | chat_ai_model | chat_ai_model.py:126 | chatbot api completed | status = 200 | api response = success
+2026-04-30 15:50:49,972 | INFO | chat_ai_model | chat_ai_model.py:125 | chatbot response comepleted!
+2026-04-30 15:50:49,972 | INFO | chat_ai_model | chat_ai_model.py:126 | chatbot api completed | status = 200 | api response = success
+2026-04-30 15:51:52,488 | INFO | chat_ai_model | chat_ai_model.py:125 | chatbot response comepleted!
+2026-04-30 15:51:52,488 | INFO | chat_ai_model | chat_ai_model.py:126 | chatbot api completed | status = 200 | api response = success
+2026-04-30 15:53:34,112 | INFO | chat_ai_model | chat_ai_model.py:125 | chatbot response comepleted!
+2026-04-30 15:53:34,112 | INFO | chat_ai_model | chat_ai_model.py:126 | chatbot api completed | status = 200 | api response = success
+2026-04-30 15:55:55,758 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-04-30 15:55:56,296 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 15:55:56,360 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 16:42:31,421 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-04-30 16:42:32,699 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 16:42:32,729 | INFO | main.py | main.py:75 | 
 Backend successfully running on: http://0.0.0.0:8001/docs
 
-2026-04-27 15:59:18,437 | INFO | main.py | main.py:31 | main file reloaded done!
-2026-04-27 15:59:33,185 | INFO | rag_llm_connecter.py | rag_llm_connector.py:150 | Exce Question:['Project name', 'Scope of supply', 'Inspection and test plan (ITP), Quality assurance plan(QAP), Quality plan(QP)', 'PED, ATEX, IP, IECeX, PESO', 'NACE']....
-2026-04-27 15:59:33,201 | INFO | rag_llm_connecter.py | rag_llm_connector.py:166 | Collection 'CORB_1-103' does not exist. Creating and generating embeddings.
-2026-04-27 17:27:56,628 | INFO | excel_writer.py | excel_writer.py:131 | Excel Written Successfully with consolidated results!
-2026-04-27 17:27:57,747 | INFO | uploade_to_s3.py | uploade_to_s3.py:53 | Successfully uploaded to S3: https://boomai-bucket.s3.ap-south-1.amazonaws.com/outputs/CORB-ai-bom-18dda2-response.xlsx
-2026-04-27 17:27:57,799 | INFO | api_router.py | api_router.py:43 | /bom_generation api completed | status = 200 | api response = success
-2026-04-27 17:39:40,498 | INFO | rag_llm_connecter.py | rag_llm_connector.py:150 | Exce Question:['Project name', 'Scope of supply', 'Inspection and test plan (ITP), Quality assurance plan(QAP), Quality plan(QP)', 'PED, ATEX, IP, IECeX, PESO', 'NACE']....
-2026-04-27 17:39:40,657 | INFO | rag_llm_connecter.py | rag_llm_connector.py:161 | Collection 'CORB_1-103' exists. Skipping embedding generation.
-2026-04-27 17:53:31,495 | INFO | excel_writer.py | excel_writer.py:131 | Excel Written Successfully with consolidated results!
-2026-04-27 17:53:32,109 | INFO | uploade_to_s3.py | uploade_to_s3.py:53 | Successfully uploaded to S3: https://boomai-bucket.s3.ap-south-1.amazonaws.com/outputs/CORB-ai-bom-ee930a-response.xlsx
-2026-04-27 17:53:32,109 | INFO | api_router.py | api_router.py:43 | /bom_generation api completed | status = 200 | api response = success
-2026-04-28 10:25:11,468 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
-2026-04-28 10:25:26,873 | INFO | main.py | main.py:31 | main file reloaded done!
-2026-04-28 10:25:27,632 | INFO | main.py | main.py:75 | 
+2026-04-30 16:42:55,334 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-04-30 16:42:56,223 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 16:42:56,352 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 16:48:50,942 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-04-30 16:48:55,442 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 16:48:56,451 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 16:49:42,163 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-04-30 16:49:42,791 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 16:49:42,903 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 16:50:34,496 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-04-30 16:50:35,163 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 16:50:35,279 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 16:51:32,254 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-04-30 16:51:32,834 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 16:51:32,904 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 16:53:25,876 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-04-30 16:53:26,611 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 16:53:26,680 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 16:53:53,724 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-04-30 16:53:54,624 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 16:53:54,744 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 16:55:14,122 | INFO | chat_ai_model | chat_ai_model.py:125 | chatbot response comepleted!
+2026-04-30 16:55:14,131 | INFO | chat_ai_model | chat_ai_model.py:126 | chatbot api completed | status = 200 | api response = success
+2026-04-30 16:57:43,204 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-04-30 16:57:43,806 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 16:57:43,872 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 17:03:04,878 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-04-30 17:03:05,343 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 17:03:05,400 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 17:06:12,626 | INFO | chat_ai_model | chat_ai_model.py:125 | chatbot response comepleted!
+2026-04-30 17:06:12,628 | INFO | chat_ai_model | chat_ai_model.py:126 | chatbot api completed | status = 200 | api response = success
+2026-04-30 17:09:09,100 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-04-30 17:09:09,704 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 17:09:09,732 | INFO | main.py | main.py:75 | 
 Backend successfully running on: http://0.0.0.0:8001/docs
 
-2026-04-28 10:25:28,856 | INFO | main.py | main.py:31 | main file reloaded done!
-2026-04-28 10:31:17,970 | INFO | rag_llm_connecter.py | rag_llm_connector.py:150 | Exce Question:['Dye penetrant test, Dye penetrant examination (PT), DPT, DPE', 'Function test report', 'Heat treatment chart, PWHT chart', 'Heat treatment process-Normalising', 'Heat treatment temperature']....
-2026-04-28 10:31:22,143 | INFO | rag_llm_connecter.py | rag_llm_connector.py:161 | Collection 'Att-6_AdVENT-STD-QC-ITP-050_-_IITP_for_Desuperheater_2__2' exists. Skipping embedding generation.
-2026-04-28 10:43:08,241 | INFO | excel_writer.py | excel_writer.py:131 | Excel Written Successfully with consolidated results!
-2026-04-28 10:43:08,900 | INFO | uploade_to_s3.py | uploade_to_s3.py:53 | Successfully uploaded to S3: https://boomai-bucket.s3.ap-south-1.amazonaws.com/outputs/circor_2_att6-ai-bom-73fd48-response.xlsx
-2026-04-28 10:43:08,900 | INFO | api_router.py | api_router.py:43 | /bom_generation api completed | status = 200 | api response = success
-2026-04-28 11:07:31,876 | INFO | rag_llm_connecter.py | rag_llm_connector.py:150 | Exce Question:['Material test certificate (MTC)', 'Chemical composition']....
-2026-04-28 11:07:32,042 | INFO | rag_llm_connecter.py | rag_llm_connector.py:166 | Collection 'att_7_editable' does not exist. Creating and generating embeddings.
-2026-04-28 11:09:11,193 | INFO | excel_writer.py | excel_writer.py:131 | Excel Written Successfully with consolidated results!
-2026-04-28 11:09:11,806 | INFO | uploade_to_s3.py | uploade_to_s3.py:53 | Successfully uploaded to S3: https://boomai-bucket.s3.ap-south-1.amazonaws.com/outputs/Att_7_question-ai-bom-18645b-response.xlsx
-2026-04-28 11:09:11,809 | INFO | api_router.py | api_router.py:43 | /bom_generation api completed | status = 200 | api response = success
-2026-04-28 11:17:26,377 | INFO | rag_llm_connecter.py | rag_llm_connector.py:150 | Exce Question:['Material test certificate (MTC)', 'reterive the chemical  properties']....
-2026-04-28 11:17:26,451 | INFO | rag_llm_connecter.py | rag_llm_connector.py:161 | Collection 'att_7_editable' exists. Skipping embedding generation.
-2026-04-28 11:18:15,865 | INFO | excel_writer.py | excel_writer.py:131 | Excel Written Successfully with consolidated results!
-2026-04-28 11:18:16,656 | INFO | uploade_to_s3.py | uploade_to_s3.py:53 | Successfully uploaded to S3: https://boomai-bucket.s3.ap-south-1.amazonaws.com/outputs/Att_7_question-ai-bom-2803f8-response.xlsx
-2026-04-28 11:18:16,656 | INFO | api_router.py | api_router.py:43 | /bom_generation api completed | status = 200 | api response = success
-2026-04-28 11:28:08,197 | INFO | rag_llm_connecter.py | rag_llm_connector.py:150 | Exce Question:['Material test certificate (MTC)', 'reterive the chemical  and mechanical properties']....
-2026-04-28 11:28:08,209 | INFO | rag_llm_connecter.py | rag_llm_connector.py:161 | Collection 'att_7_editable' exists. Skipping embedding generation.
-2026-04-28 11:28:57,875 | INFO | excel_writer.py | excel_writer.py:131 | Excel Written Successfully with consolidated results!
-2026-04-28 11:28:58,306 | INFO | uploade_to_s3.py | uploade_to_s3.py:53 | Successfully uploaded to S3: https://boomai-bucket.s3.ap-south-1.amazonaws.com/outputs/att_7_question-ai-bom-39f857-response.xlsx
-2026-04-28 11:28:58,309 | INFO | api_router.py | api_router.py:43 | /bom_generation api completed | status = 200 | api response = success
-2026-04-28 12:20:03,147 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
-2026-04-28 12:20:04,063 | INFO | main.py | main.py:31 | main file reloaded done!
-2026-04-28 12:20:04,165 | INFO | main.py | main.py:75 | 
+2026-04-30 17:09:28,072 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-04-30 17:09:28,647 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 17:09:28,720 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 17:10:23,541 | INFO | chat_ai_model | chat_ai_model.py:125 | chatbot response comepleted!
+2026-04-30 17:10:23,542 | INFO | chat_ai_model | chat_ai_model.py:126 | chatbot api completed | status = 200 | api response = success
+2026-04-30 17:12:54,928 | INFO | chat_ai_model | chat_ai_model.py:125 | chatbot response comepleted!
+2026-04-30 17:12:54,928 | INFO | chat_ai_model | chat_ai_model.py:126 | chatbot api completed | status = 200 | api response = success
+2026-04-30 17:15:48,976 | INFO | chat_ai_model | chat_ai_model.py:125 | chatbot response comepleted!
+2026-04-30 17:15:48,979 | INFO | chat_ai_model | chat_ai_model.py:126 | chatbot api completed | status = 200 | api response = success
+2026-04-30 17:17:19,417 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-04-30 17:17:20,034 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 17:17:20,097 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 17:19:41,512 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-04-30 17:19:42,132 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 17:19:42,228 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 17:41:29,045 | INFO | chat_ai_model | chat_ai_model.py:125 | chatbot response comepleted!
+2026-04-30 17:41:29,045 | INFO | chat_ai_model | chat_ai_model.py:126 | chatbot api completed | status = 200 | api response = success
+2026-04-30 17:43:00,772 | INFO | chat_ai_model | chat_ai_model.py:125 | chatbot response comepleted!
+2026-04-30 17:43:00,772 | INFO | chat_ai_model | chat_ai_model.py:126 | chatbot api completed | status = 200 | api response = success
+2026-04-30 17:46:05,834 | INFO | chat_ai_model | chat_ai_model.py:125 | chatbot response comepleted!
+2026-04-30 17:46:05,835 | INFO | chat_ai_model | chat_ai_model.py:126 | chatbot api completed | status = 200 | api response = success
+2026-04-30 17:50:58,953 | INFO | chat_ai_model | chat_ai_model.py:125 | chatbot response comepleted!
+2026-04-30 17:50:58,953 | INFO | chat_ai_model | chat_ai_model.py:126 | chatbot api completed | status = 200 | api response = success
+2026-04-30 18:06:38,657 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-04-30 18:06:39,645 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 18:06:40,021 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 18:08:47,032 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-04-30 18:08:47,610 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 18:08:47,670 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 18:09:10,599 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-04-30 18:09:11,231 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 18:09:11,312 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 18:09:44,694 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-04-30 18:09:45,213 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 18:09:50,994 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-04-30 18:09:51,501 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 18:09:51,529 | INFO | main.py | main.py:75 | 
 Backend successfully running on: http://0.0.0.0:8001/docs
 
-2026-04-28 12:20:04,421 | INFO | main.py | main.py:31 | main file reloaded done!
-2026-04-28 12:22:20,911 | INFO | rag_llm_connecter.py | rag_llm_connector.py:150 | Exce Question:['Material test certificate (MTC)', 'reterive the chemical  and mechanical properties']....
-2026-04-28 12:22:22,242 | INFO | rag_llm_connecter.py | rag_llm_connector.py:161 | Collection 'att_7_editable' exists. Skipping embedding generation.
-2026-04-28 12:29:09,506 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
-2026-04-28 12:29:10,119 | INFO | main.py | main.py:31 | main file reloaded done!
-2026-04-28 12:29:10,157 | INFO | main.py | main.py:75 | 
+2026-04-30 18:10:08,231 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-04-30 18:10:08,893 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 18:10:08,984 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 18:11:10,360 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-04-30 18:11:11,409 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 18:11:11,473 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 18:11:33,908 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-04-30 18:11:34,379 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 18:11:34,435 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 18:12:08,851 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-04-30 18:12:09,322 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 18:12:09,387 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 18:13:56,008 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-04-30 18:13:56,462 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 18:13:56,477 | INFO | main.py | main.py:75 | 
 Backend successfully running on: http://0.0.0.0:8001/docs
 
-2026-04-28 12:29:10,199 | INFO | main.py | main.py:31 | main file reloaded done!
-2026-04-28 12:29:49,445 | INFO | rag_llm_connecter.py | rag_llm_connector.py:150 | Exce Question:['reterive the primary ntity or project name from the document metadata?,', 'reterive the scope for painting specifications?,', 'What are the stream parameters such as flow, temperature, and pressure?,', 'What are the water parameters such as flow, temperature, and pressure?,', 'reterive Techcnical data from the general data of item?,']....
-2026-04-28 12:29:49,459 | INFO | rag_llm_connecter.py | rag_llm_connector.py:166 | Collection 'BHEL_Client_trial' does not exist. Creating and generating embeddings.
-2026-04-28 12:41:36,338 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
-2026-04-28 12:41:36,807 | INFO | main.py | main.py:31 | main file reloaded done!
-2026-04-28 12:41:36,823 | INFO | main.py | main.py:75 | 
+2026-04-30 18:14:15,723 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-04-30 18:14:16,189 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 18:14:16,257 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 18:19:31,416 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-04-30 18:19:32,128 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 18:19:32,189 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 18:21:11,900 | INFO | chat_ai_model | chat_ai_model.py:125 | chatbot response comepleted!
+2026-04-30 18:21:11,916 | INFO | chat_ai_model | chat_ai_model.py:126 | chatbot api completed | status = 200 | api response = success
+2026-04-30 18:30:01,830 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-04-30 18:30:02,362 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 18:30:02,412 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 18:30:43,224 | INFO | chat_ai_model | chat_ai_model.py:125 | chatbot response comepleted!
+2026-04-30 18:30:43,226 | INFO | chat_ai_model | chat_ai_model.py:126 | chatbot api completed | status = 200 | api response = success
+2026-04-30 18:35:07,223 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-04-30 18:35:07,943 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-04-30 18:35:08,041 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-01 21:09:38,174 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-01 21:09:40,248 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-01 21:09:40,411 | INFO | main.py | main.py:75 | 
 Backend successfully running on: http://0.0.0.0:8001/docs
 
-2026-04-28 12:41:36,856 | INFO | main.py | main.py:31 | main file reloaded done!
-2026-04-28 12:41:42,754 | INFO | rag_llm_connecter.py | rag_llm_connector.py:150 | Exce Question:['reterive the primary ntity or project name from the document metadata?,', 'reterive the scope for painting specifications?,', 'What are the stream parameters such as flow, temperature, and pressure?,', 'What are the water parameters such as flow, temperature, and pressure?,', 'reterive Techcnical data from the general data of item?,']....
-2026-04-28 12:41:42,769 | INFO | rag_llm_connecter.py | rag_llm_connector.py:166 | Collection 'BHEL_Client_testing' does not exist. Creating and generating embeddings.
-2026-04-28 14:38:12,750 | INFO | excel_writer.py | excel_writer.py:131 | Excel Written Successfully with consolidated results!
-2026-04-28 14:38:13,401 | INFO | uploade_to_s3.py | uploade_to_s3.py:53 | Successfully uploaded to S3: https://boomai-bucket.s3.ap-south-1.amazonaws.com/outputs/circor_2_question_BHEL-ai-bom-5c3664-response.xlsx
-2026-04-28 14:38:13,405 | INFO | api_router.py | api_router.py:43 | /bom_generation api completed | status = 200 | api response = success
-2026-04-28 15:11:23,570 | INFO | rag_llm_connecter.py | rag_llm_connector.py:150 | Exce Question:['reterive the primary ntity or project name from the document metadata?,', 'reterive the scope for painting specifications?,', 'What are the stream parameters such as flow, temperature, and pressure?,', 'What are the water parameters such as flow, temperature, and pressure?,', 'reterive Techcnical data from the general data of item?,']....
-2026-04-28 15:11:24,835 | INFO | rag_llm_connecter.py | rag_llm_connector.py:161 | Collection 'BHEL_Spec' exists. Skipping embedding generation.
-2026-04-28 15:39:36,385 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
-2026-04-28 15:39:46,421 | INFO | main.py | main.py:31 | main file reloaded done!
-2026-04-28 15:39:46,621 | INFO | main.py | main.py:75 | 
+2026-05-01 21:11:13,886 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-01 21:11:14,453 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-01 21:11:14,457 | INFO | main.py | main.py:75 | 
 Backend successfully running on: http://0.0.0.0:8001/docs
 
-2026-04-28 15:39:47,111 | INFO | main.py | main.py:31 | main file reloaded done!
-2026-04-28 15:43:09,267 | INFO | chat_ai_model | chat_ai_model.py:122 | chatbot response comepleted!
-2026-04-28 15:43:09,267 | INFO | chat_ai_model | chat_ai_model.py:123 | chatbot api completed | status = 200 | api response = success
-2026-04-28 15:43:35,989 | INFO | chat_ai_model | chat_ai_model.py:122 | chatbot response comepleted!
-2026-04-28 15:43:35,989 | INFO | chat_ai_model | chat_ai_model.py:123 | chatbot api completed | status = 200 | api response = success
-2026-04-28 15:44:14,031 | INFO | chat_ai_model | chat_ai_model.py:122 | chatbot response comepleted!
-2026-04-28 15:44:14,033 | INFO | chat_ai_model | chat_ai_model.py:123 | chatbot api completed | status = 200 | api response = success
-2026-04-28 15:46:33,448 | INFO | chat_ai_model | chat_ai_model.py:122 | chatbot response comepleted!
-2026-04-28 15:46:33,448 | INFO | chat_ai_model | chat_ai_model.py:123 | chatbot api completed | status = 200 | api response = success
-2026-04-28 15:47:10,167 | INFO | chat_ai_model | chat_ai_model.py:122 | chatbot response comepleted!
-2026-04-28 15:47:10,167 | INFO | chat_ai_model | chat_ai_model.py:123 | chatbot api completed | status = 200 | api response = success
-2026-04-28 15:48:07,666 | INFO | chat_ai_model | chat_ai_model.py:122 | chatbot response comepleted!
-2026-04-28 15:48:07,666 | INFO | chat_ai_model | chat_ai_model.py:123 | chatbot api completed | status = 200 | api response = success
-2026-04-28 15:49:48,589 | INFO | chat_ai_model | chat_ai_model.py:122 | chatbot response comepleted!
-2026-04-28 15:49:48,589 | INFO | chat_ai_model | chat_ai_model.py:123 | chatbot api completed | status = 200 | api response = success
-2026-04-28 15:54:36,701 | INFO | chat_ai_model | chat_ai_model.py:122 | chatbot response comepleted!
-2026-04-28 15:54:36,705 | INFO | chat_ai_model | chat_ai_model.py:123 | chatbot api completed | status = 200 | api response = success
-2026-04-28 15:57:26,175 | INFO | chat_ai_model | chat_ai_model.py:122 | chatbot response comepleted!
-2026-04-28 15:57:26,175 | INFO | chat_ai_model | chat_ai_model.py:123 | chatbot api completed | status = 200 | api response = success
-2026-04-28 15:59:13,247 | INFO | chat_ai_model | chat_ai_model.py:122 | chatbot response comepleted!
-2026-04-28 15:59:13,247 | INFO | chat_ai_model | chat_ai_model.py:123 | chatbot api completed | status = 200 | api response = success
-2026-04-28 16:02:11,970 | INFO | chat_ai_model | chat_ai_model.py:122 | chatbot response comepleted!
-2026-04-28 16:02:11,970 | INFO | chat_ai_model | chat_ai_model.py:123 | chatbot api completed | status = 200 | api response = success
-2026-04-28 16:04:03,561 | INFO | chat_ai_model | chat_ai_model.py:122 | chatbot response comepleted!
-2026-04-28 16:04:03,561 | INFO | chat_ai_model | chat_ai_model.py:123 | chatbot api completed | status = 200 | api response = success
-2026-04-28 16:05:42,992 | INFO | chat_ai_model | chat_ai_model.py:122 | chatbot response comepleted!
-2026-04-28 16:05:42,999 | INFO | chat_ai_model | chat_ai_model.py:123 | chatbot api completed | status = 200 | api response = success
-2026-04-28 16:06:32,206 | INFO | chat_ai_model | chat_ai_model.py:122 | chatbot response comepleted!
-2026-04-28 16:06:32,206 | INFO | chat_ai_model | chat_ai_model.py:123 | chatbot api completed | status = 200 | api response = success
-2026-04-28 16:09:45,937 | INFO | chat_ai_model | chat_ai_model.py:122 | chatbot response comepleted!
-2026-04-28 16:09:45,939 | INFO | chat_ai_model | chat_ai_model.py:123 | chatbot api completed | status = 200 | api response = success
-2026-04-28 16:11:49,042 | INFO | chat_ai_model | chat_ai_model.py:122 | chatbot response comepleted!
-2026-04-28 16:11:49,042 | INFO | chat_ai_model | chat_ai_model.py:123 | chatbot api completed | status = 200 | api response = success
-2026-04-28 16:14:15,069 | INFO | chat_ai_model | chat_ai_model.py:122 | chatbot response comepleted!
-2026-04-28 16:14:15,078 | INFO | chat_ai_model | chat_ai_model.py:123 | chatbot api completed | status = 200 | api response = success
-2026-04-28 16:16:18,646 | INFO | chat_ai_model | chat_ai_model.py:122 | chatbot response comepleted!
-2026-04-28 16:16:18,646 | INFO | chat_ai_model | chat_ai_model.py:123 | chatbot api completed | status = 200 | api response = success
-2026-04-28 16:17:46,251 | INFO | chat_ai_model | chat_ai_model.py:122 | chatbot response comepleted!
-2026-04-28 16:17:46,251 | INFO | chat_ai_model | chat_ai_model.py:123 | chatbot api completed | status = 200 | api response = success
-2026-04-28 16:19:06,667 | INFO | chat_ai_model | chat_ai_model.py:122 | chatbot response comepleted!
-2026-04-28 16:19:06,670 | INFO | chat_ai_model | chat_ai_model.py:123 | chatbot api completed | status = 200 | api response = success
-2026-04-28 16:19:39,904 | INFO | chat_ai_model | chat_ai_model.py:122 | chatbot response comepleted!
-2026-04-28 16:19:39,904 | INFO | chat_ai_model | chat_ai_model.py:123 | chatbot api completed | status = 200 | api response = success
-2026-04-28 16:22:09,865 | INFO | chat_ai_model | chat_ai_model.py:122 | chatbot response comepleted!
-2026-04-28 16:22:09,866 | INFO | chat_ai_model | chat_ai_model.py:123 | chatbot api completed | status = 200 | api response = success
-2026-04-28 16:22:54,483 | INFO | chat_ai_model | chat_ai_model.py:122 | chatbot response comepleted!
-2026-04-28 16:22:54,483 | INFO | chat_ai_model | chat_ai_model.py:123 | chatbot api completed | status = 200 | api response = success
-2026-04-28 16:25:21,592 | INFO | chat_ai_model | chat_ai_model.py:122 | chatbot response comepleted!
-2026-04-28 16:25:21,594 | INFO | chat_ai_model | chat_ai_model.py:123 | chatbot api completed | status = 200 | api response = success
-2026-04-28 16:26:33,600 | INFO | chat_ai_model | chat_ai_model.py:122 | chatbot response comepleted!
-2026-04-28 16:26:33,600 | INFO | chat_ai_model | chat_ai_model.py:123 | chatbot api completed | status = 200 | api response = success
-2026-04-28 16:28:26,886 | INFO | chat_ai_model | chat_ai_model.py:122 | chatbot response comepleted!
-2026-04-28 16:28:26,886 | INFO | chat_ai_model | chat_ai_model.py:123 | chatbot api completed | status = 200 | api response = success
-2026-04-28 16:30:21,439 | INFO | chat_ai_model | chat_ai_model.py:122 | chatbot response comepleted!
-2026-04-28 16:30:21,439 | INFO | chat_ai_model | chat_ai_model.py:123 | chatbot api completed | status = 200 | api response = success
-2026-04-28 16:32:24,153 | INFO | chat_ai_model | chat_ai_model.py:122 | chatbot response comepleted!
-2026-04-28 16:32:24,154 | INFO | chat_ai_model | chat_ai_model.py:123 | chatbot api completed | status = 200 | api response = success
-2026-04-28 16:34:50,638 | INFO | chat_ai_model | chat_ai_model.py:122 | chatbot response comepleted!
-2026-04-28 16:34:50,638 | INFO | chat_ai_model | chat_ai_model.py:123 | chatbot api completed | status = 200 | api response = success
-2026-04-28 16:35:53,115 | INFO | chat_ai_model | chat_ai_model.py:122 | chatbot response comepleted!
-2026-04-28 16:35:53,116 | INFO | chat_ai_model | chat_ai_model.py:123 | chatbot api completed | status = 200 | api response = success
-2026-04-28 16:36:37,183 | INFO | chat_ai_model | chat_ai_model.py:122 | chatbot response comepleted!
-2026-04-28 16:36:37,184 | INFO | chat_ai_model | chat_ai_model.py:123 | chatbot api completed | status = 200 | api response = success
-2026-04-28 16:40:40,085 | INFO | chat_ai_model | chat_ai_model.py:122 | chatbot response comepleted!
-2026-04-28 16:40:40,086 | INFO | chat_ai_model | chat_ai_model.py:123 | chatbot api completed | status = 200 | api response = success
-2026-04-28 16:45:43,578 | INFO | chat_ai_model | chat_ai_model.py:122 | chatbot response comepleted!
-2026-04-28 16:45:43,579 | INFO | chat_ai_model | chat_ai_model.py:123 | chatbot api completed | status = 200 | api response = success
-2026-04-28 16:48:38,578 | INFO | chat_ai_model | chat_ai_model.py:122 | chatbot response comepleted!
-2026-04-28 16:48:38,578 | INFO | chat_ai_model | chat_ai_model.py:123 | chatbot api completed | status = 200 | api response = success
-2026-04-28 16:50:01,727 | INFO | chat_ai_model | chat_ai_model.py:122 | chatbot response comepleted!
-2026-04-28 16:50:01,728 | INFO | chat_ai_model | chat_ai_model.py:123 | chatbot api completed | status = 200 | api response = success
-2026-04-28 16:50:49,173 | INFO | chat_ai_model | chat_ai_model.py:122 | chatbot response comepleted!
-2026-04-28 16:50:49,173 | INFO | chat_ai_model | chat_ai_model.py:123 | chatbot api completed | status = 200 | api response = success
-2026-04-29 11:01:09,201 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
-2026-04-29 11:01:11,959 | INFO | main.py | main.py:31 | main file reloaded done!
-2026-04-29 11:01:12,064 | INFO | main.py | main.py:75 | 
+2026-05-01 21:11:40,737 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-01 21:11:42,606 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-01 21:11:43,158 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-01 21:17:06,203 | ERROR | chat_ai_model | chat_ai_model.py:132 | chatbot Response failed: Connection error.
+2026-05-01 21:17:39,443 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-01 21:17:40,964 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-01 21:17:41,138 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-01 21:20:36,712 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-01 21:20:38,950 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-01 21:20:39,313 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-01 21:22:03,176 | INFO | chat_ai_model | chat_ai_model.py:125 | chatbot response comepleted!
+2026-05-01 21:22:03,176 | INFO | chat_ai_model | chat_ai_model.py:126 | chatbot api completed | status = 200 | api response = success
+2026-05-01 21:26:25,595 | INFO | chat_ai_model | chat_ai_model.py:125 | chatbot response comepleted!
+2026-05-01 21:26:25,595 | INFO | chat_ai_model | chat_ai_model.py:126 | chatbot api completed | status = 200 | api response = success
+2026-05-01 21:28:13,993 | INFO | chat_ai_model | chat_ai_model.py:125 | chatbot response comepleted!
+2026-05-01 21:28:13,993 | INFO | chat_ai_model | chat_ai_model.py:126 | chatbot api completed | status = 200 | api response = success
+2026-05-01 21:30:48,312 | INFO | chat_ai_model | chat_ai_model.py:125 | chatbot response comepleted!
+2026-05-01 21:30:48,312 | INFO | chat_ai_model | chat_ai_model.py:126 | chatbot api completed | status = 200 | api response = success
+2026-05-01 21:35:14,647 | INFO | chat_ai_model | chat_ai_model.py:125 | chatbot response comepleted!
+2026-05-01 21:35:14,647 | INFO | chat_ai_model | chat_ai_model.py:126 | chatbot api completed | status = 200 | api response = success
+2026-05-01 21:37:35,994 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-01 21:37:36,891 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-01 21:37:37,004 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-01 21:40:09,543 | INFO | chat_ai_model | chat_ai_model.py:125 | chatbot response comepleted!
+2026-05-01 21:40:09,543 | INFO | chat_ai_model | chat_ai_model.py:126 | chatbot api completed | status = 200 | api response = success
+2026-05-01 21:45:21,666 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-01 21:45:22,230 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-01 21:45:22,317 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-01 21:46:10,132 | INFO | chat_ai_model | chat_ai_model.py:125 | chatbot response comepleted!
+2026-05-01 21:46:10,132 | INFO | chat_ai_model | chat_ai_model.py:126 | chatbot api completed | status = 200 | api response = success
+2026-05-01 21:55:37,920 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-01 21:55:38,687 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-01 21:55:38,801 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-01 21:56:38,525 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-01 21:56:39,095 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-01 21:56:39,201 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-01 21:58:19,300 | INFO | chat_ai_model | chat_ai_model.py:142 | chatbot response comepleted!
+2026-05-01 21:58:19,301 | INFO | chat_ai_model | chat_ai_model.py:143 | chatbot api completed | status = 200 | api response = success
+2026-05-01 22:00:15,373 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-01 22:00:16,062 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-01 22:00:16,159 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-01 22:01:08,317 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-01 22:01:09,011 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-01 22:01:09,138 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-01 22:04:00,960 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-01 22:04:01,659 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-01 22:04:01,776 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-01 22:05:37,275 | ERROR | chat_ai_model | chat_ai_model.py:148 | chatbot Response failed: Error code: 400 - {'error': {'message': "This model's maximum context length is 30906 tokens. However, you requested 0 output tokens and your prompt contains at least 30907 input tokens, for a total of at least 30907 tokens. Please reduce the length of the input prompt or the number of requested output tokens. (parameter=input_tokens, value=30907)", 'type': 'BadRequestError', 'param': 'input_tokens', 'code': 400}}
+2026-05-01 22:07:59,612 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-01 22:08:00,291 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-01 22:08:00,379 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-01 22:08:54,049 | INFO | chat_ai_model | chat_ai_model.py:141 | chatbot response comepleted!
+2026-05-01 22:08:54,049 | INFO | chat_ai_model | chat_ai_model.py:142 | chatbot api completed | status = 200 | api response = success
+2026-05-01 22:10:51,392 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-01 22:10:53,428 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-01 22:10:53,646 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-01 22:16:49,321 | INFO | chat_ai_model | chat_ai_model.py:141 | chatbot response comepleted!
+2026-05-01 22:16:49,321 | INFO | chat_ai_model | chat_ai_model.py:142 | chatbot api completed | status = 200 | api response = success
+2026-05-02 10:00:49,218 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-02 10:00:51,057 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-02 10:00:51,221 | INFO | main.py | main.py:75 | 
 Backend successfully running on: http://0.0.0.0:8001/docs
 
-2026-04-29 11:01:12,303 | INFO | main.py | main.py:31 | main file reloaded done!
-2026-04-29 11:12:32,244 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
-2026-04-29 11:12:32,801 | INFO | main.py | main.py:31 | main file reloaded done!
-2026-04-29 11:12:32,894 | INFO | main.py | main.py:75 | 
+2026-05-02 10:01:11,364 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-02 10:01:11,789 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-02 10:01:12,268 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-02 20:46:15,057 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-02 20:46:17,754 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-02 20:46:17,920 | INFO | main.py | main.py:75 | 
 Backend successfully running on: http://0.0.0.0:8001/docs
 
-2026-04-29 11:12:33,029 | INFO | main.py | main.py:31 | main file reloaded done!
-2026-04-29 11:13:42,437 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
-2026-04-29 11:13:42,965 | INFO | main.py | main.py:31 | main file reloaded done!
-2026-04-29 11:13:43,002 | INFO | main.py | main.py:75 | 
+2026-05-02 20:46:41,842 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-02 20:46:43,385 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-02 20:46:44,041 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-02 20:53:18,732 | INFO | rag_llm_connecter.py | rag_llm_connector.py:150 | Exce Question:['reterive the primary ntity or project name from the document metadata?,', 'reterive the scope for painting specifications?,']....
+2026-05-02 20:53:19,104 | INFO | rag_llm_connecter.py | rag_llm_connector.py:166 | Collection 'circor_2_question_BHEL' does not exist. Creating and generating embeddings.
+2026-05-02 20:54:08,809 | INFO | rag_llm_connecter.py | rag_llm_connector.py:150 | Exce Question:['reterive the primary ntity or project name from the document metadata?,', 'reterive the scope for painting specifications?,']....
+2026-05-02 20:54:08,815 | INFO | rag_llm_connecter.py | rag_llm_connector.py:166 | Collection 'BHEL_Spec.-32-39-1-3' does not exist. Creating and generating embeddings.
+2026-05-02 21:04:53,205 | INFO | chat_ai_model | chat_ai_model.py:141 | chatbot response comepleted!
+2026-05-02 21:04:53,205 | INFO | chat_ai_model | chat_ai_model.py:142 | chatbot api completed | status = 200 | api response = success
+2026-05-02 21:06:16,334 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-02 21:06:19,770 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-02 21:06:20,375 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-02 21:06:50,410 | ERROR | chat_ai_model | chat_ai_model.py:595 | chatbot Response failed: sequence item 0: expected str instance, dict found
+2026-05-02 21:09:08,578 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-02 21:09:10,225 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-02 21:09:10,458 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-02 21:40:09,154 | ERROR | chat_ai_model | chat_ai_model.py:595 | chatbot Response failed: Error code: 400 - {'error': {'message': "This model's maximum context length is 30906 tokens. However, you requested 0 output tokens and your prompt contains at least 30907 input tokens, for a total of at least 30907 tokens. Please reduce the length of the input prompt or the number of requested output tokens. (parameter=input_tokens, value=30907)", 'type': 'BadRequestError', 'param': 'input_tokens', 'code': 400}}
+2026-05-02 21:41:22,244 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-02 21:41:24,054 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-02 21:41:24,278 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-02 21:42:43,252 | INFO | chat_ai_model | chat_ai_model.py:588 | chatbot response comepleted!
+2026-05-02 21:42:43,252 | INFO | chat_ai_model | chat_ai_model.py:589 | chatbot api completed | status = 200 | api response = success
+2026-05-02 21:46:24,266 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-02 21:46:25,799 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-02 21:46:25,988 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-02 21:49:14,645 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-02 21:49:15,448 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-02 21:49:15,564 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-02 22:00:03,136 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-02 22:00:03,941 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-02 22:00:04,027 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-02 22:01:50,813 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-02 22:01:52,380 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-02 22:01:52,552 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-02 22:14:43,286 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-02 22:14:43,737 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-02 22:14:43,823 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-02 22:17:55,604 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-02 22:17:56,053 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-02 22:17:56,109 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-02 22:18:51,822 | ERROR | chat_ai_model | chat_ai_model.py:184 | chatbot Response failed: 'str' object has no attribute 'original'
+2026-05-02 22:21:27,103 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-02 22:21:27,629 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-02 22:21:27,684 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-02 22:22:11,248 | ERROR | chat_ai_model | chat_ai_model.py:185 | chatbot Response failed: 'str' object has no attribute 'original'
+2026-05-02 22:23:54,767 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-02 22:25:22,395 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-02 22:25:22,862 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-02 22:25:22,981 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-02 22:28:22,209 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-02 22:28:22,777 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-02 22:28:22,846 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-02 22:28:22,860 | ERROR | chat_ai_model | chat_ai_model.py:192 | chatbot Response failed: object of type 'NoneType' has no len()
+2026-05-02 22:31:13,522 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-02 22:31:14,098 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-02 22:31:14,179 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-02 22:31:14,187 | ERROR | chat_ai_model | chat_ai_model.py:203 | chatbot Response failed: object of type 'NoneType' has no len()
+2026-05-02 22:32:13,258 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-02 22:32:13,699 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-02 22:32:13,754 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-02 22:32:13,767 | ERROR | chat_ai_model | chat_ai_model.py:203 | chatbot Response failed: object of type 'NoneType' has no len()
+2026-05-02 22:34:34,902 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-02 22:34:35,358 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-02 22:34:35,435 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-02 22:34:56,261 | INFO | chat_ai_model | chat_ai_model.py:196 | chatbot response comepleted!
+2026-05-02 22:34:56,261 | INFO | chat_ai_model | chat_ai_model.py:197 | chatbot api completed | status = 200 | api response = success
+2026-05-02 22:36:46,354 | INFO | chat_ai_model | chat_ai_model.py:196 | chatbot response comepleted!
+2026-05-02 22:36:46,354 | INFO | chat_ai_model | chat_ai_model.py:197 | chatbot api completed | status = 200 | api response = success
+2026-05-02 22:38:07,184 | INFO | chat_ai_model | chat_ai_model.py:196 | chatbot response comepleted!
+2026-05-02 22:38:07,184 | INFO | chat_ai_model | chat_ai_model.py:197 | chatbot api completed | status = 200 | api response = success
+2026-05-02 22:40:03,916 | INFO | chat_ai_model | chat_ai_model.py:196 | chatbot response comepleted!
+2026-05-02 22:40:03,931 | INFO | chat_ai_model | chat_ai_model.py:197 | chatbot api completed | status = 200 | api response = success
+2026-05-04 13:04:13,843 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-04 13:04:17,066 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-04 13:04:17,286 | INFO | main.py | main.py:75 | 
 Backend successfully running on: http://0.0.0.0:8001/docs
 
-2026-04-29 11:13:43,054 | INFO | main.py | main.py:31 | main file reloaded done!
-2026-04-29 11:14:43,246 | ERROR | chat_ai_model | chat_ai_model.py:129 | chatbot Response failed: 'NoneType' object is not subscriptable
-2026-04-29 11:15:20,686 | ERROR | chat_ai_model | chat_ai_model.py:129 | chatbot Response failed: 'NoneType' object is not subscriptable
-2026-04-29 11:17:22,565 | INFO | default-summary-question | default_question.py:67 | summary default question Loaded successfully.
-2026-04-29 11:18:00,614 | ERROR | summary agent | summary_default_query_agent.py:92 | Extraction failed: Connection error.
-2026-04-29 11:18:00,615 | ERROR | summary-model | summary_model.py:95 | general_summary is required when modify=False
-2026-04-29 11:20:20,586 | INFO | default-summary-question | default_question.py:67 | summary default question Loaded successfully.
-2026-04-29 11:20:59,103 | ERROR | summary agent | summary_default_query_agent.py:92 | Extraction failed: Connection error.
-2026-04-29 11:20:59,103 | ERROR | summary-model | summary_model.py:95 | general_summary is required when modify=False
-2026-04-29 11:30:00,176 | INFO | RAG Logs | create_vector.py:71 | Emebeding input document_id: BHEL Spec..pdf
-2026-04-29 11:30:00,178 | INFO | RAG Logs | create_vector.py:74 | sanitaized collection name: BHEL_Spec
-2026-04-29 11:30:00,184 | INFO | RAG Logs | create_vector.py:81 | Collection 'BHEL_Spec' exists. Skipping.
-2026-04-29 11:30:49,611 | ERROR | chat_ai_model | chat_ai_model.py:129 | chatbot Response failed: list indices must be integers or slices, not str
-2026-04-29 11:38:07,949 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
-2026-04-29 11:38:08,539 | INFO | main.py | main.py:31 | main file reloaded done!
-2026-04-29 11:38:08,568 | INFO | main.py | main.py:75 | 
+2026-05-04 13:04:48,860 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-04 13:04:50,532 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-04 13:04:51,425 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-04 13:13:31,283 | ERROR | chat_ai_model | chat_ai_model.py:210 | Chunk processing model execution failed: Connection error.
+2026-05-04 13:13:41,131 | ERROR | chat_ai_model | chat_ai_model.py:210 | Chunk processing model execution failed: Connection error.
+2026-05-04 13:13:51,105 | ERROR | chat_ai_model | chat_ai_model.py:210 | Chunk processing model execution failed: Connection error.
+2026-05-04 13:14:01,085 | ERROR | chat_ai_model | chat_ai_model.py:210 | Chunk processing model execution failed: Connection error.
+2026-05-04 13:14:11,024 | ERROR | chat_ai_model | chat_ai_model.py:210 | Chunk processing model execution failed: Connection error.
+2026-05-04 13:14:21,168 | ERROR | chat_ai_model | chat_ai_model.py:210 | Chunk processing model execution failed: Connection error.
+2026-05-04 13:14:31,006 | ERROR | chat_ai_model | chat_ai_model.py:210 | Chunk processing model execution failed: Connection error.
+2026-05-04 13:14:41,111 | ERROR | chat_ai_model | chat_ai_model.py:210 | Chunk processing model execution failed: Connection error.
+2026-05-04 13:14:51,147 | ERROR | chat_ai_model | chat_ai_model.py:210 | Chunk processing model execution failed: Connection error.
+2026-05-04 13:15:01,239 | ERROR | chat_ai_model | chat_ai_model.py:210 | Chunk processing model execution failed: Connection error.
+2026-05-04 13:15:11,101 | ERROR | chat_ai_model | chat_ai_model.py:210 | Chunk processing model execution failed: Connection error.
+2026-05-04 13:15:21,003 | ERROR | chat_ai_model | chat_ai_model.py:210 | Chunk processing model execution failed: Connection error.
+2026-05-04 13:15:31,151 | ERROR | chat_ai_model | chat_ai_model.py:210 | Chunk processing model execution failed: Connection error.
+2026-05-04 13:17:51,505 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-04 13:17:53,517 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-04 13:17:53,867 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-04 13:18:47,465 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-04 13:18:48,361 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-04 13:18:48,485 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-04 13:21:52,854 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-04 13:21:53,793 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-04 13:21:53,891 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-04 13:23:59,951 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-04 13:24:00,781 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-04 13:24:00,852 | INFO | main.py | main.py:75 | 
 Backend successfully running on: http://0.0.0.0:8001/docs
 
-2026-04-29 11:38:08,603 | INFO | main.py | main.py:31 | main file reloaded done!
-2026-04-29 11:39:22,590 | INFO | default-summary-question | default_question.py:67 | summary default question Loaded successfully.
-2026-04-29 11:39:23,822 | ERROR | summary agent | summary_default_query_agent.py:92 | Extraction failed: Error code: 401
-2026-04-29 11:39:23,822 | ERROR | summary-model | summary_model.py:95 | general_summary is required when modify=False
-2026-04-29 11:39:54,713 | ERROR | chat_ai_model | chat_ai_model.py:129 | chatbot Response failed: 'NoneType' object is not subscriptable
-2026-04-29 12:02:17,516 | INFO | RAG Logs | create_vector.py:71 | Emebeding input document_id: BHEL Spec..pdf
-2026-04-29 12:02:17,516 | INFO | RAG Logs | create_vector.py:74 | sanitaized collection name: BHEL_Spec
-2026-04-29 12:02:17,634 | INFO | RAG Logs | create_vector.py:81 | Collection 'BHEL_Spec' exists. Skipping.
-2026-04-29 12:02:30,199 | ERROR | chat_ai_model | chat_ai_model.py:129 | chatbot Response failed: list indices must be integers or slices, not str
-2026-04-29 13:12:37,178 | INFO | RAG Logs | create_vector.py:71 | Emebeding input document_id: BHEL Spec..pdf
-2026-04-29 13:12:37,178 | INFO | RAG Logs | create_vector.py:74 | sanitaized collection name: BHEL_Spec
-2026-04-29 13:12:37,185 | INFO | RAG Logs | create_vector.py:81 | Collection 'BHEL_Spec' exists. Skipping.
-2026-04-29 13:12:46,014 | ERROR | chat_ai_model | chat_ai_model.py:129 | chatbot Response failed: list indices must be integers or slices, not str
-2026-04-29 14:33:42,352 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
-2026-04-29 14:33:51,375 | INFO | main.py | main.py:31 | main file reloaded done!
-2026-04-29 14:33:52,151 | INFO | main.py | main.py:75 | 
+2026-05-04 13:24:43,785 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-04 13:24:45,891 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-04 13:24:46,144 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-04 13:31:35,651 | INFO | rag_llm_connecter.py | rag_llm_connector.py:150 | Exce Question:['reterive the primary ntity or project name from the document metadata?,', 'reterive the scope for painting specifications?,', 'What are the stream parameters such as flow, temperature, and pressure?,', 'What are the water parameters such as flow, temperature, and pressure?,', 'reterive Techcnical data from the general data of item?,']....
+2026-05-04 13:31:37,276 | INFO | rag_llm_connecter.py | rag_llm_connector.py:161 | Collection 'BHEL_Spec' exists. Skipping embedding generation.
+2026-05-04 13:34:27,727 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-04 13:34:31,051 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-04 13:34:31,161 | INFO | main.py | main.py:75 | 
 Backend successfully running on: http://0.0.0.0:8001/docs
 
-2026-04-29 14:33:52,798 | INFO | main.py | main.py:31 | main file reloaded done!
-2026-04-29 14:37:03,784 | INFO | chat_ai_model | chat_ai_model.py:122 | chatbot response comepleted!
-2026-04-29 14:37:03,785 | INFO | chat_ai_model | chat_ai_model.py:123 | chatbot api completed | status = 200 | api response = success
-2026-04-29 14:38:56,665 | INFO | default-summary-question | default_question.py:67 | summary default question Loaded successfully.
-2026-04-29 14:43:54,011 | INFO | rag_llm_connecter.py | rag_llm_connector.py:150 | Exce Question:['reterive the primary ntity or project name from the document metadata?,', 'reterive the scope for painting specifications?,', 'What are the stream parameters such as flow, temperature, and pressure?,', 'What are the water parameters such as flow, temperature, and pressure?,', 'reterive Techcnical data from the general data of item?,']....
-2026-04-29 14:43:54,029 | INFO | rag_llm_connecter.py | rag_llm_connector.py:166 | Collection '1777454043047-BHEL_Client_trial' does not exist. Creating and generating embeddings.
-2026-04-29 14:45:12,627 | INFO | default-summary-question | default_question.py:67 | summary default question Loaded successfully.
-2026-04-29 14:48:47,795 | INFO | chat_ai_model | chat_ai_model.py:122 | chatbot response comepleted!
-2026-04-29 14:48:47,797 | INFO | chat_ai_model | chat_ai_model.py:123 | chatbot api completed | status = 200 | api response = success
-2026-04-29 15:01:41,856 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
-2026-04-29 15:01:45,391 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-04 13:35:10,131 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-04 13:35:10,906 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-04 13:35:11,255 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-04 13:35:40,652 | INFO | rag_llm_connecter.py | rag_llm_connector.py:150 | Exce Question:['reterive the primary ntity or project name from the document metadata?,', 'reterive the scope for painting specifications?,', 'What are the stream parameters such as flow, temperature, and pressure?,', 'What are the water parameters such as flow, temperature, and pressure?,', 'reterive Techcnical data from the general data of item?,']....
+2026-05-04 13:35:41,691 | INFO | rag_llm_connecter.py | rag_llm_connector.py:161 | Collection 'BHEL_Spec' exists. Skipping embedding generation.
+2026-05-04 13:38:11,997 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-04 13:38:12,696 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-04 13:38:12,726 | INFO | main.py | main.py:75 | 
+Backend successfully running on: http://0.0.0.0:8001/docs
+
+2026-05-04 13:38:37,273 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-04 13:38:38,038 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-04 13:38:38,151 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-04 13:39:23,727 | INFO | rag_llm_connecter.py | rag_llm_connector.py:150 | Exce Question:['reterive the primary ntity or project name from the document metadata?,', 'reterive the scope for painting specifications?,', 'What are the stream parameters such as flow, temperature, and pressure?,', 'What are the water parameters such as flow, temperature, and pressure?,', 'reterive Techcnical data from the general data of item?,']....
+2026-05-04 13:39:23,741 | INFO | rag_llm_connecter.py | rag_llm_connector.py:166 | Collection 'BHEL_Spec' does not exist. Creating and generating embeddings.
+2026-05-04 14:52:12,107 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-04 14:52:14,782 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-04 14:52:15,168 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-04 14:52:18,899 | INFO | rag_llm_connecter.py | rag_llm_connector.py:150 | Exce Question:['reterive the primary ntity or project name from the document metadata?,', 'reterive the scope for painting specifications?,', 'What are the stream parameters such as flow, temperature, and pressure?,', 'What are the water parameters such as flow, temperature, and pressure?,', 'reterive Techcnical data from the general data of item?,']....
+2026-05-04 14:52:19,183 | INFO | rag_llm_connecter.py | rag_llm_connector.py:161 | Collection 'BHEL_Spec' exists. Skipping embedding generation.
+2026-05-04 15:00:14,947 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-04 15:00:15,772 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-04 15:00:15,883 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-04 15:00:19,678 | INFO | rag_llm_connecter.py | rag_llm_connector.py:150 | Exce Question:['reterive the primary ntity or project name from the document metadata?,', 'reterive the scope for painting specifications?,', 'What are the stream parameters such as flow, temperature, and pressure?,', 'What are the water parameters such as flow, temperature, and pressure?,', 'reterive Techcnical data from the general data of item?,']....
+2026-05-04 15:00:19,736 | INFO | rag_llm_connecter.py | rag_llm_connector.py:161 | Collection 'BHEL_Spec' exists. Skipping embedding generation.
+2026-05-04 15:06:42,120 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-04 15:06:42,624 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-04 15:06:42,711 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-04 15:06:47,292 | INFO | rag_llm_connecter.py | rag_llm_connector.py:150 | Exce Question:['reterive the primary ntity or project name from the document metadata?,', 'reterive the scope for painting specifications?,', 'What are the stream parameters such as flow, temperature, and pressure?,', 'What are the water parameters such as flow, temperature, and pressure?,', 'reterive Techcnical data from the general data of item?,']....
+2026-05-04 15:06:47,339 | INFO | rag_llm_connecter.py | rag_llm_connector.py:161 | Collection 'BHEL_Spec' exists. Skipping embedding generation.
+2026-05-04 15:09:07,716 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-04 15:09:08,203 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-04 15:09:08,256 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-04 15:12:37,477 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-04 15:12:37,947 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-04 15:12:38,003 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-04 15:12:42,860 | INFO | rag_llm_connecter.py | rag_llm_connector.py:150 | Exce Question:['reterive the primary ntity or project name from the document metadata?,', 'reterive the scope for painting specifications?,', 'What are the stream parameters such as flow, temperature, and pressure?,', 'What are the water parameters such as flow, temperature, and pressure?,', 'reterive Techcnical data from the general data of item?,']....
+2026-05-04 15:12:43,004 | INFO | rag_llm_connecter.py | rag_llm_connector.py:161 | Collection 'BHEL_Spec' exists. Skipping embedding generation.
+2026-05-04 15:17:01,616 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-04 15:17:02,073 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-04 15:17:02,117 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-04 15:17:55,436 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-04 15:17:55,904 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-04 15:17:55,987 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-04 15:18:42,429 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-04 15:18:42,971 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-04 15:18:43,029 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-04 15:20:57,891 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-04 15:20:58,362 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-04 15:20:58,412 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-04 15:25:40,556 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-04 15:25:41,184 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-04 15:25:41,247 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-04 15:26:02,124 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-04 15:26:02,666 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-04 15:26:02,741 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-04 15:26:35,400 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-04 15:26:36,000 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-04 15:26:36,070 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-04 15:28:08,830 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-04 15:28:09,421 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-04 15:28:09,497 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-04 15:28:27,288 | INFO | rag_llm_connecter.py | rag_llm_connector.py:150 | Exce Question:['reterive the primary ntity or project name from the document metadata?,', 'reterive the scope for painting specifications?,', 'What are the stream parameters such as flow, temperature, and pressure?,', 'What are the water parameters such as flow, temperature, and pressure?,', 'reterive Techcnical data from the general data of item?,']....
+2026-05-04 15:28:27,384 | INFO | rag_llm_connecter.py | rag_llm_connector.py:161 | Collection 'BHEL_Spec' exists. Skipping embedding generation.
+2026-05-04 15:57:52,562 | INFO | excel_writer.py | excel_writer.py:131 | Excel Written Successfully with consolidated results!
+2026-05-04 15:57:53,831 | INFO | uploade_to_s3.py | uploade_to_s3.py:53 | Successfully uploaded to S3: https://boomai-bucket.s3.ap-south-1.amazonaws.com/outputs/circor_2_question_BHEL-ai-bom-183fb9-response.xlsx
+2026-05-04 15:57:53,833 | INFO | api_router.py | api_router.py:43 | /bom_generation api completed | status = 200 | api response = success
+2026-05-04 16:11:26,980 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-04 16:11:30,449 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-04 16:11:31,229 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-04 16:12:16,124 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-04 16:12:16,909 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-04 16:12:16,998 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-04 16:12:30,162 | INFO | rag_llm_connecter.py | rag_llm_connector.py:150 | Exce Question:['reterive the primary ntity or project name from the document metadata?,', 'reterive the scope for painting specifications?,', 'What are the stream parameters such as flow, temperature, and pressure?,', 'What are the water parameters such as flow, temperature, and pressure?,', 'reterive Techcnical data from the general data of item?,']....
+2026-05-04 16:12:31,364 | INFO | rag_llm_connecter.py | rag_llm_connector.py:161 | Collection 'BHEL_Spec' exists. Skipping embedding generation.
+2026-05-04 16:14:15,689 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-04 16:14:16,187 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-04 16:14:16,257 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-04 16:14:21,606 | INFO | rag_llm_connecter.py | rag_llm_connector.py:150 | Exce Question:['reterive the primary ntity or project name from the document metadata?,', 'reterive the scope for painting specifications?,', 'What are the stream parameters such as flow, temperature, and pressure?,', 'What are the water parameters such as flow, temperature, and pressure?,', 'reterive Techcnical data from the general data of item?,']....
+2026-05-04 16:14:21,727 | INFO | rag_llm_connecter.py | rag_llm_connector.py:161 | Collection 'BHEL_Spec' exists. Skipping embedding generation.
+2026-05-04 17:16:21,509 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-04 17:16:22,159 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-04 17:16:22,233 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-04 17:18:47,687 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-04 17:18:48,297 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-04 17:18:48,404 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-04 17:19:00,452 | INFO | rag_llm_connecter.py | rag_llm_connector.py:150 | Exce Question:['reterive the primary ntity or project name from the document metadata?,', 'reterive the scope for painting specifications?,', 'What are the stream parameters such as flow, temperature, and pressure?,', 'What are the water parameters such as flow, temperature, and pressure?,', 'reterive Techcnical data from the general data of item?,']....
+2026-05-04 17:19:00,568 | INFO | rag_llm_connecter.py | rag_llm_connector.py:161 | Collection 'BHEL_Spec' exists. Skipping embedding generation.
+2026-05-04 17:30:05,030 | INFO | excel_writer.py | excel_writer.py:131 | Excel Written Successfully with consolidated results!
+2026-05-04 17:30:05,884 | INFO | uploade_to_s3.py | uploade_to_s3.py:53 | Successfully uploaded to S3: https://boomai-bucket.s3.ap-south-1.amazonaws.com/outputs/circor_2_question_BHEL-ai-bom-baf3fa-response.xlsx
+2026-05-04 17:30:05,885 | INFO | api_router.py | api_router.py:43 | /bom_generation api completed | status = 200 | api response = success
+2026-05-04 17:42:55,827 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-04 17:42:56,296 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-04 17:42:56,435 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-04 18:09:34,706 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-04 18:09:36,655 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-04 18:09:37,081 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-04 18:11:13,150 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-04 18:11:13,821 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-04 18:11:13,918 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-04 18:11:34,734 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-04 18:11:35,192 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-04 18:11:35,262 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-04 18:12:49,389 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-04 18:12:49,863 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-04 18:12:49,917 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-04 18:17:20,654 | INFO | rag_llm_connecter.py | rag_llm_connector.py:150 | Exce Question:['reterive the primary ntity or project name from the document metadata?,', 'reterive the scope for painting specifications?,', 'What are the stream parameters such as flow, temperature, and pressure?,', 'What are the water parameters such as flow, temperature, and pressure?,', 'reterive Techcnical data from the general data of item?,']....
+2026-05-04 18:17:20,741 | INFO | rag_llm_connecter.py | rag_llm_connector.py:163 | Collection 'BHEL_Spec.-32-39-1-3' exists but empty. Generating embeddings.
+2026-05-04 18:18:27,978 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-04 18:18:28,453 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-04 18:18:28,512 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-04 18:18:55,000 | INFO | rag_llm_connecter.py | rag_llm_connector.py:150 | Exce Question:['reterive the primary ntity or project name from the document metadata?,', 'reterive the scope for painting specifications?,', 'What are the stream parameters such as flow, temperature, and pressure?,', 'What are the water parameters such as flow, temperature, and pressure?,', 'reterive Techcnical data from the general data of item?,']....
+2026-05-04 18:18:55,015 | INFO | rag_llm_connecter.py | rag_llm_connector.py:163 | Collection 'BHEL_Spec.-32-39-1-3' exists but empty. Generating embeddings.
+2026-05-04 18:20:31,123 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-04 18:20:31,612 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-04 18:20:31,677 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-04 18:20:33,169 | INFO | rag_llm_connecter.py | rag_llm_connector.py:150 | Exce Question:['reterive the primary ntity or project name from the document metadata?,', 'reterive the scope for painting specifications?,', 'What are the stream parameters such as flow, temperature, and pressure?,', 'What are the water parameters such as flow, temperature, and pressure?,', 'reterive Techcnical data from the general data of item?,']....
+2026-05-04 18:20:33,186 | INFO | rag_llm_connecter.py | rag_llm_connector.py:163 | Collection 'BHEL_Spec.-32-39-1-3' exists but empty. Generating embeddings.
+2026-05-04 18:23:00,776 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-04 18:23:01,213 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-04 18:23:01,246 | INFO | main.py | main.py:75 | 
+Backend successfully running on: http://0.0.0.0:8001/docs
+
+2026-05-04 18:23:22,321 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-04 18:23:22,755 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-04 18:23:22,816 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-04 18:23:43,821 | INFO | rag_llm_connecter.py | rag_llm_connector.py:150 | Exce Question:['Dye penetrant test, Dye penetrant examination (PT), DPT, DPE', 'Function test report', 'Heat treatment chart, PWHT chart', 'Heat treatment process-Normalising', 'Heat treatment temperature']....
+2026-05-04 18:23:43,838 | INFO | rag_llm_connecter.py | rag_llm_connector.py:166 | Collection 'Att-6_AdVENT-STD-QC-ITP-050_-_IITP_for_Desuperheater_2__2' does not exist. Creating and generating embeddings.
+2026-05-05 10:06:15,335 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-05 10:06:19,916 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 10:06:20,078 | INFO | main.py | main.py:75 | 
+Backend successfully running on: http://0.0.0.0:8001/docs
+
+2026-05-05 10:06:41,951 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-05 10:06:42,669 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 10:06:43,498 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 10:14:37,820 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-05 10:14:40,301 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 10:14:40,376 | INFO | main.py | main.py:75 | 
+Backend successfully running on: http://0.0.0.0:8001/docs
+
+2026-05-05 10:15:01,131 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-05 10:15:01,773 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 10:15:02,094 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 10:24:40,347 | INFO | rag_llm_connecter.py | rag_llm_connector.py:150 | Exce Question:['Dye penetrant test, Dye penetrant examination (PT), DPT, DPE', 'Function test report', 'Heat treatment chart, PWHT chart', 'Heat treatment process-Normalising', 'Heat treatment temperature']....
+2026-05-05 10:24:40,543 | INFO | rag_llm_connecter.py | rag_llm_connector.py:166 | Collection 'Att-6_AdVENT-STD-QC-ITP-050_-_IITP_for_Desuperheater_2__2' does not exist. Creating and generating embeddings.
+2026-05-05 10:38:33,541 | INFO | excel_writer.py | excel_writer.py:131 | Excel Written Successfully with consolidated results!
+2026-05-05 10:38:34,327 | INFO | uploade_to_s3.py | uploade_to_s3.py:53 | Successfully uploaded to S3: https://boomai-bucket.s3.ap-south-1.amazonaws.com/outputs/circor_2_att6-ai-bom-2e17ae-response.xlsx
+2026-05-05 10:38:34,331 | INFO | api_router.py | api_router.py:43 | /bom_generation api completed | status = 200 | api response = success
+2026-05-05 10:47:01,291 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-05 10:47:04,240 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 10:47:04,872 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 10:49:41,100 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-05 10:49:42,191 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 10:49:42,320 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 10:51:30,250 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-05 10:51:31,466 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 10:51:31,632 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 10:54:10,535 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-05 10:54:11,271 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 10:54:11,393 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 10:55:58,903 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-05 10:55:59,933 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 10:56:00,045 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 10:58:06,015 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-05 10:58:06,889 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 10:58:07,021 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 11:01:54,937 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-05 11:01:55,881 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 11:01:56,005 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 11:13:18,195 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-05 11:13:18,908 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 11:13:19,035 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 11:15:44,087 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-05 11:15:44,880 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 11:15:44,989 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 12:06:19,915 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-05 12:06:22,158 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 12:06:22,530 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 12:46:51,093 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-05 12:46:54,319 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 12:46:54,887 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 13:35:53,719 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-05 13:35:56,163 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 13:35:56,476 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 13:36:54,135 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-05 13:36:54,713 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 13:36:54,870 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 13:41:53,737 | ERROR | app_logger | downloader.py:44 | S3 download error: Could not connect to the endpoint URL: "https://boomai-bucket.s3.ap-south-1.amazonaws.com/aravindh/BHEL%20Spec..pdf"
+2026-05-05 13:41:54,122 | ERROR | app_logger | downloader.py:44 | S3 download error: Could not connect to the endpoint URL: "https://boomai-bucket.s3.ap-south-1.amazonaws.com/outputs/att_6_2_question-ai-bom-43a3d0-response.xlsx"
+2026-05-05 13:42:38,940 | ERROR | app_logger | downloader.py:44 | S3 download error: Could not connect to the endpoint URL: "https://boomai-bucket.s3.ap-south-1.amazonaws.com/aravindh/BHEL%20Spec..pdf"
+2026-05-05 13:42:40,533 | ERROR | app_logger | downloader.py:44 | S3 download error: Could not connect to the endpoint URL: "https://boomai-bucket.s3.ap-south-1.amazonaws.com/outputs/att_6_2_question-ai-bom-43a3d0-response.xlsx"
+2026-05-05 13:43:16,149 | ERROR | app_logger | downloader.py:44 | S3 download error: Could not connect to the endpoint URL: "https://boomai-bucket.s3.ap-south-1.amazonaws.com/outputs/att_6_2_question-ai-bom-43a3d0-response.xlsx"
+2026-05-05 13:43:32,581 | ERROR | app_logger | downloader.py:44 | S3 download error: Could not connect to the endpoint URL: "https://boomai-bucket.s3.ap-south-1.amazonaws.com/aravindh/BHEL%20Spec..pdf"
+2026-05-05 13:44:17,061 | INFO | rag_llm_connecter.py | rag_llm_connector.py:150 | Exce Question:['Dye penetrant test, Dye penetrant examination (PT), DPT, DPE', 'Function test report']....
+2026-05-05 13:44:17,072 | INFO | rag_llm_connecter.py | rag_llm_connector.py:166 | Collection 'BHEL_Spec' does not exist. Creating and generating embeddings.
+2026-05-05 14:45:29,722 | INFO | excel_writer.py | excel_writer.py:131 | Excel Written Successfully with consolidated results!
+2026-05-05 14:45:31,458 | INFO | uploade_to_s3.py | uploade_to_s3.py:53 | Successfully uploaded to S3: https://boomai-bucket.s3.ap-south-1.amazonaws.com/outputs/att_6_2_question-ai-bom-43a3d0-response-ai-bom-2629ab-response.xlsx
+2026-05-05 14:45:31,460 | INFO | api_router.py | api_router.py:43 | /bom_generation api completed | status = 200 | api response = success
+2026-05-05 14:59:07,332 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-05 14:59:09,527 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 14:59:10,003 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 15:02:02,415 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-05 15:02:02,867 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 15:02:02,960 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 15:06:07,673 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-05 15:06:08,388 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 15:06:08,466 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 15:06:42,592 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-05 15:06:43,122 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 15:06:43,187 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 15:15:07,254 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-05 15:15:08,087 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 15:15:08,161 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 15:17:44,820 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-05 15:17:45,280 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 15:17:45,338 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 15:28:27,760 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-05 15:28:29,631 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 15:28:29,968 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 15:29:59,159 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-05 15:29:59,669 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 15:29:59,732 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 15:34:45,601 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-05 15:34:46,073 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 15:34:46,212 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 15:37:37,774 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-05 15:37:38,263 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 15:37:38,330 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 15:40:35,522 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-05 15:40:36,018 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 15:40:36,078 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 15:51:33,419 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-05 15:51:36,230 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 15:51:36,514 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 15:54:29,468 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-05 15:54:29,961 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 15:54:30,028 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 15:55:07,266 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-05 15:55:07,756 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 15:55:07,830 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 15:56:18,000 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-05 15:56:18,599 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 15:56:18,660 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 15:56:48,420 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-05 15:56:48,907 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 15:56:49,027 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 15:58:07,656 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-05 15:58:08,130 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 15:58:08,185 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 15:58:29,887 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-05 15:58:31,017 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 15:58:31,104 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 15:59:11,945 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-05 15:59:12,419 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 15:59:12,479 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 16:00:45,637 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-05 16:00:46,119 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 16:00:46,177 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 16:01:17,823 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-05 16:01:18,315 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 16:01:18,372 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 16:02:36,567 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-05 16:02:37,027 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 16:02:37,111 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 16:03:07,371 | INFO | chat_ai_model | chat_ai_model.py:118 | Initializing new TenderRAG engine for: BHEL_Spec
+2026-05-05 16:16:04,210 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-05 16:16:04,845 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 16:16:04,898 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 16:17:01,988 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-05 16:17:02,464 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 16:17:02,524 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 16:17:17,113 | INFO | chat_ai_model | chat_ai_model.py:118 | Initializing new TenderRAG engine for: BHEL_Spec
+2026-05-05 17:01:33,536 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-05 17:01:39,290 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 17:01:39,714 | INFO | main.py | main.py:75 | 
+Backend successfully running on: http://0.0.0.0:8001/docs
+
+2026-05-05 17:01:59,750 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-05 17:02:00,348 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 17:02:01,008 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 17:08:40,218 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-05 17:08:40,683 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 17:08:40,739 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 17:10:34,116 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-05 17:10:34,981 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 17:10:35,042 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 17:11:24,997 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-05 17:11:25,515 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 17:11:25,583 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 17:13:37,895 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-05 17:13:38,385 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 17:13:38,438 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 17:14:08,954 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-05 17:14:09,883 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 17:14:10,000 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 17:16:59,529 | INFO | chat_ai_model | chat_ai_model.py:118 | Initializing new TenderRAG engine for: BHEL_Spec
+2026-05-05 17:23:41,099 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-05 17:23:43,982 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 17:23:44,366 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 17:25:08,356 | INFO | chat_ai_model | chat_ai_model.py:118 | Initializing new TenderRAG engine for: BHEL_Spec
+2026-05-05 17:44:59,112 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-05 17:44:59,633 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 17:44:59,689 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 18:02:01,086 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-05 18:02:01,580 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 18:02:01,671 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 18:02:27,609 | INFO | chat_ai_model | chat_ai_model.py:118 | Initializing new TenderRAG engine for: BHEL_Spec
+2026-05-05 18:08:09,180 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-05 18:08:11,242 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 18:08:11,465 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 18:11:35,393 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-05 18:11:36,226 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 18:11:36,331 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 18:12:23,675 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-05 18:12:25,446 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 18:12:25,609 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 18:14:23,612 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-05 18:14:24,408 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 18:14:24,520 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 18:15:05,328 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-05 18:15:06,109 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 18:15:06,201 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 18:16:19,943 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-05 18:16:21,570 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 18:16:21,759 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 18:16:40,860 | INFO | chat_ai_model | chat_ai_model.py:118 | Initializing new TenderRAG engine for: BHEL_Spec
+2026-05-05 18:19:02,479 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-05 18:19:02,976 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 18:19:03,044 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 18:19:07,132 | INFO | chat_ai_model | chat_ai_model.py:118 | Initializing new TenderRAG engine for: BHEL_Spec
+2026-05-05 18:22:41,915 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-05 18:22:42,619 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 18:22:42,723 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-05 18:22:42,957 | INFO | chat_ai_model | chat_ai_model.py:118 | Initializing new TenderRAG engine for: BHEL_Spec
+2026-05-06 09:42:18,581 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 09:42:20,884 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 09:42:21,069 | INFO | main.py | main.py:75 | 
+Backend successfully running on: http://0.0.0.0:8001/docs
+
+2026-05-06 09:42:39,128 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 09:42:39,695 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 09:42:40,044 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 09:47:06,188 | INFO | chat_ai_model | chat_ai_model.py:118 | Initializing new TenderRAG engine for: BHEL_Spec
+2026-05-06 09:53:36,214 | INFO | chat_ai_model | chat_ai_model.py:118 | Initializing new TenderRAG engine for: BHEL_Client_testing
+2026-05-06 10:42:26,663 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 10:42:29,414 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 10:42:29,887 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 10:42:29,913 | INFO | chat_ai_model | chat_ai_model.py:118 | Initializing new TenderRAG engine for: BHEL_Spec
+2026-05-06 10:50:22,093 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 10:50:22,699 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 10:50:22,722 | INFO | main.py | main.py:75 | 
+Backend successfully running on: http://0.0.0.0:8001/docs
+
+2026-05-06 10:50:44,271 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 10:50:44,982 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 10:50:45,119 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 10:51:03,764 | INFO | chat_ai_model | chat_ai_model.py:118 | Initializing new TenderRAG engine for: BHEL_Spec
+2026-05-06 10:53:15,640 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 10:53:16,571 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 10:53:16,611 | INFO | main.py | main.py:75 | 
+Backend successfully running on: http://0.0.0.0:8001/docs
+
+2026-05-06 10:53:37,670 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 10:53:38,322 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 10:53:38,404 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 10:53:51,664 | INFO | chat_ai_model | chat_ai_model.py:118 | Initializing new TenderRAG engine for: BHEL_Spec
+2026-05-06 10:56:02,243 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 10:56:03,445 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 10:56:03,558 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 10:56:10,365 | INFO | chat_ai_model | chat_ai_model.py:118 | Initializing new TenderRAG engine for: BHEL_Spec
+2026-05-06 10:59:20,552 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 10:59:21,172 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 10:59:21,236 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 10:59:21,243 | INFO | chat_ai_model | chat_ai_model.py:118 | Initializing new TenderRAG engine for: BHEL_Spec
+2026-05-06 11:04:14,767 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 11:04:15,389 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 11:04:15,422 | INFO | main.py | main.py:75 | 
+Backend successfully running on: http://0.0.0.0:8001/docs
+
+2026-05-06 11:04:41,432 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 11:04:42,017 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 11:04:42,102 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 11:09:33,749 | INFO | chat_ai_model | chat_ai_model.py:118 | Initializing new TenderRAG engine for: BHEL_Spec
+2026-05-06 11:57:55,923 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 11:57:58,237 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 11:57:58,718 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 12:00:12,611 | INFO | chat_ai_model | chat_ai_model.py:118 | Initializing new TenderRAG engine for: BHEL_Spec
+2026-05-06 12:01:51,501 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 12:01:52,073 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 12:01:52,152 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 12:01:52,155 | INFO | chat_ai_model | chat_ai_model.py:118 | Initializing new TenderRAG engine for: BHEL_Spec
+2026-05-06 12:14:41,389 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 12:14:41,947 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 12:14:42,014 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 12:14:52,505 | INFO | chat_ai_model | chat_ai_model.py:118 | Initializing new TenderRAG engine for: BHEL_Spec
+2026-05-06 12:17:28,959 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 12:17:29,555 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 12:17:29,577 | INFO | main.py | main.py:75 | 
+Backend successfully running on: http://0.0.0.0:8001/docs
+
+2026-05-06 12:17:29,609 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 12:19:54,905 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 12:19:55,439 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 12:22:21,617 | INFO | chat_ai_model | chat_ai_model.py:118 | Initializing new TenderRAG engine for: BHEL_Spec
+2026-05-06 12:24:37,281 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 12:24:37,860 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 12:25:08,386 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 12:25:09,181 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 12:25:30,217 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 12:25:30,816 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 12:25:52,294 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 12:25:52,831 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 12:26:12,211 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 12:26:12,767 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 12:26:33,497 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 12:26:34,023 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 12:26:53,811 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 12:26:54,358 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 12:27:15,561 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 12:27:16,203 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 12:27:37,414 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 12:27:38,031 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 12:28:06,854 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 12:28:07,342 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 12:28:31,576 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 12:28:32,092 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 12:28:56,416 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 12:28:56,906 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 12:29:18,864 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 12:29:19,449 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 12:29:42,140 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 12:29:42,639 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 12:31:13,173 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 12:31:13,599 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 12:32:24,176 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 12:32:24,641 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 12:32:46,209 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 12:32:46,683 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 12:33:06,534 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 12:33:07,047 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 12:33:32,470 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 12:33:33,002 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 12:34:26,515 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 12:34:27,111 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 12:34:47,176 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 12:34:47,707 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 12:35:10,608 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 12:35:11,213 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 12:35:32,730 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 12:35:33,209 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 12:35:56,131 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 12:35:56,637 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 12:36:18,469 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 12:36:19,129 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 12:36:40,076 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 12:36:40,550 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 12:37:05,076 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 12:37:05,714 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 12:37:28,093 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 12:37:28,570 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 12:37:49,502 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 12:37:50,127 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 12:41:16,055 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 12:41:16,593 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 12:41:37,853 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 12:41:39,000 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 12:42:00,246 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 12:42:00,842 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 12:55:20,138 | INFO | chat_ai_model | chat_ai_model.py:118 | Initializing new TenderRAG engine for: 1774258127481-SOR-_20BMW-K34_K35_202
+2026-05-06 13:01:04,393 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 13:01:06,526 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 13:01:28,087 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 13:01:28,822 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 13:01:52,891 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 13:01:53,698 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 13:01:54,797 | INFO | chat_ai_model | chat_ai_model.py:118 | Initializing new TenderRAG engine for: 1774258127481-SOR-_20BMW-K34_K35_202
+2026-05-06 13:05:16,798 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 13:05:17,266 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 13:06:05,849 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 13:06:06,326 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 13:06:27,504 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 13:06:27,971 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 13:06:49,855 | INFO | chat_ai_model | chat_ai_model.py:118 | Initializing new TenderRAG engine for: BHEL_Spec
+2026-05-06 13:06:51,070 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 13:06:51,543 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 13:06:51,553 | INFO | chat_ai_model | chat_ai_model.py:118 | Initializing new TenderRAG engine for: 1774258127481-SOR-_20BMW-K34_K35_202
+2026-05-06 13:08:13,696 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 13:08:14,204 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 13:08:48,957 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 13:08:49,630 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 13:09:13,298 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 13:09:13,884 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 13:09:13,891 | INFO | chat_ai_model | chat_ai_model.py:118 | Initializing new TenderRAG engine for: BHEL_Spec
+2026-05-06 13:21:59,343 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 13:22:01,808 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 13:23:40,132 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 13:23:40,606 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 13:24:16,431 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 13:24:17,166 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 13:28:09,869 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 13:28:10,318 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 13:29:04,836 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 13:29:05,204 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 13:29:24,484 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 13:29:25,020 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 13:29:47,548 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 13:29:47,931 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 13:30:40,698 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 13:30:41,097 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 13:31:01,132 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 13:31:01,532 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 13:31:20,571 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 13:31:20,937 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 13:31:40,715 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 13:31:41,095 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 13:35:04,591 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 13:35:05,050 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 13:35:25,293 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 13:35:25,776 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 13:36:16,661 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 13:36:17,063 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 13:36:37,007 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 13:36:37,587 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 13:37:00,308 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 13:37:00,675 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 13:37:24,280 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 13:37:24,800 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 13:37:47,409 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 13:37:47,835 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 13:39:22,306 | INFO | rag_llm_connecter.py | rag_llm_connector.py:150 | Exce Question:['Dye penetrant test, Dye penetrant examination (PT), DPT, DPE', 'Function test report']....
+2026-05-06 13:39:22,634 | INFO | rag_llm_connecter.py | rag_llm_connector.py:163 | Collection 'BHEL_Client_testing' exists but empty. Generating embeddings.
+2026-05-06 15:31:59,662 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 15:32:01,871 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 15:32:27,135 | INFO | rag_llm_connecter.py | rag_llm_connector.py:150 | Exce Question:['Dye penetrant test, Dye penetrant examination (PT), DPT, DPE', 'Function test report']....
+2026-05-06 15:32:27,369 | INFO | rag_llm_connecter.py | rag_llm_connector.py:161 | Collection 'BHEL_Client_testing' exists. Skipping embedding generation.
+2026-05-06 15:33:31,092 | INFO | excel_writer.py | excel_writer.py:131 | Excel Written Successfully with consolidated results!
+2026-05-06 15:33:31,811 | INFO | uploade_to_s3.py | uploade_to_s3.py:53 | Successfully uploaded to S3: https://boomai-bucket.s3.ap-south-1.amazonaws.com/outputs/att_6_2_question-ai-bom-98b205-response.xlsx
+2026-05-06 15:33:31,814 | INFO | api_router.py | api_router.py:43 | /bom_generation api completed | status = 200 | api response = success
+2026-05-06 15:35:50,395 | INFO | chat_ai_model | chat_ai_model.py:118 | Initializing new TenderRAG engine for: BHEL_Client_testing
+2026-05-06 16:09:18,285 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 16:09:45,507 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 16:10:05,881 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 16:10:26,145 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 16:10:49,048 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 16:11:09,768 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 16:11:36,032 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 16:11:56,686 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 16:15:22,498 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 16:15:44,752 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 16:16:05,689 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 16:16:26,234 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 16:17:16,206 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 16:17:36,488 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 16:17:58,671 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 16:18:20,621 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 16:18:49,388 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 16:19:09,387 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 16:19:29,832 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 16:19:30,503 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 16:19:50,782 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 16:19:51,210 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 16:19:51,246 | INFO | chat_ai_model | chat_ai_model.py:122 | Initializing new TenderRAG engine for: BHEL_Client_testing
+2026-05-06 16:21:37,191 | ERROR | chat_ai_model | chat_ai_model.py:193 | Error generating presigned URL: name 'asyncio' is not defined
+2026-05-06 16:21:47,953 | ERROR | chat_ai_model | chat_ai_model.py:193 | Error generating presigned URL: name 'asyncio' is not defined
+2026-05-06 16:21:49,869 | ERROR | chat_ai_model | chat_ai_model.py:193 | Error generating presigned URL: name 'asyncio' is not defined
+2026-05-06 16:21:51,243 | ERROR | chat_ai_model | chat_ai_model.py:193 | Error generating presigned URL: name 'asyncio' is not defined
+2026-05-06 16:21:53,088 | ERROR | chat_ai_model | chat_ai_model.py:193 | Error generating presigned URL: name 'asyncio' is not defined
+2026-05-06 16:24:14,514 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 16:24:16,213 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 16:25:44,571 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 16:25:44,972 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 16:26:04,327 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 16:26:04,704 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 16:26:23,616 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 16:26:23,992 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 17:20:29,171 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 17:20:30,888 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 17:20:30,894 | INFO | main.py | main.py:75 | 
+Backend successfully running on: http://0.0.0.0:8001/docs
+
+2026-05-06 17:20:30,982 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 17:21:53,823 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 17:21:54,282 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 17:23:10,982 | INFO | chat_ai_model | chat_ai_model.py:125 | Initializing new TenderRAG engine for: BHEL_Client_testing
+2026-05-06 17:30:22,736 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 17:30:25,676 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 17:31:07,073 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 17:31:08,296 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 17:31:42,734 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 17:31:43,164 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 17:31:43,339 | INFO | chat_ai_model | chat_ai_model.py:125 | Initializing new TenderRAG engine for: BHEL_Client_testing
+2026-05-06 17:46:01,716 | INFO | chat_ai_model | chat_ai_model.py:118 | Initializing new TenderRAG engine for: 1777454043047-BHEL_Client_trial
+2026-05-06 17:52:03,931 | INFO | chat_ai_model | chat_ai_model.py:125 | Initializing new TenderRAG engine for: BHEL_Spec
+2026-05-06 17:54:17,959 | INFO | rag_llm_connecter.py | rag_llm_connector.py:150 | Exce Question:['reterive the primary ntity or project name from the document metadata?,', 'reterive the scope for painting specifications?,', 'What are the stream parameters such as flow, temperature, and pressure?,', 'What are the water parameters such as flow, temperature, and pressure?,', 'reterive Techcnical data from the general data of item?,']....
+2026-05-06 17:54:17,997 | INFO | rag_llm_connecter.py | rag_llm_connector.py:166 | Collection '1778070269139-RFQ1' does not exist. Creating and generating embeddings.
+2026-05-06 17:56:47,773 | INFO | default-summary-question | default_question.py:67 | summary default question Loaded successfully.
+2026-05-06 17:59:26,817 | INFO | chat_ai_model | chat_ai_model.py:118 | Initializing new TenderRAG engine for: 1778070269139-RFQ1
+2026-05-06 18:04:07,413 | INFO | rag_llm_connecter.py | rag_llm_connector.py:150 | Exce Question:['reterive the primary ntity or project name from the document metadata?,', 'reterive the scope for painting specifications?,', 'What are the stream parameters such as flow, temperature, and pressure?,', 'What are the water parameters such as flow, temperature, and pressure?,', 'reterive Techcnical data from the general data of item?,']....
+2026-05-06 18:04:07,455 | INFO | rag_llm_connecter.py | rag_llm_connector.py:163 | Collection '1778070269139-RFQ1' exists but empty. Generating embeddings.
+2026-05-06 18:26:02,414 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 18:26:12,902 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 18:26:46,491 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 18:26:47,879 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 18:27:38,214 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 18:28:06,569 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 18:28:07,473 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 18:28:46,371 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 18:28:46,985 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 18:33:03,407 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 18:33:05,979 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 18:33:28,573 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 18:33:28,972 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 18:33:48,419 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 18:33:48,788 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 18:33:48,872 | INFO | chat_ai_model | chat_ai_model.py:125 | Initializing new TenderRAG engine for: BHEL_Spec
+2026-05-06 18:37:57,307 | INFO | excel_writer.py | excel_writer.py:131 | Excel Written Successfully with consolidated results!
+2026-05-06 18:38:01,419 | INFO | uploade_to_s3.py | uploade_to_s3.py:53 | Successfully uploaded to S3: https://boomai-bucket.s3.ap-south-1.amazonaws.com/outputs/1778070273901-BHEL_Questions-ai-bom-90df36-response.xlsx
+2026-05-06 18:38:01,486 | INFO | api_router.py | api_router.py:43 | /bom_generation api completed | status = 200 | api response = success
+2026-05-06 18:39:06,553 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 18:39:08,542 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 18:39:27,673 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 18:39:28,100 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 18:39:47,941 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 18:39:48,442 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 18:40:21,952 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 18:40:22,561 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 18:40:43,749 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 18:40:44,250 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 18:41:08,886 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 18:41:09,565 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 18:41:34,855 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 18:41:35,237 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 18:41:55,403 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 18:41:55,801 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 18:42:16,595 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-06 18:42:16,990 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-06 18:42:17,177 | INFO | chat_ai_model | chat_ai_model.py:125 | Initializing new TenderRAG engine for: BHEL_Spec
+2026-05-07 11:45:48,087 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-07 11:45:50,133 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-07 11:45:50,369 | INFO | main.py | main.py:75 | 
+Backend successfully running on: http://0.0.0.0:8001/docs
+
+2026-05-07 11:45:51,526 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-07 12:38:30,045 | INFO | chat_ai_model | chat_ai_model.py:125 | Initializing new TenderRAG engine for: BHEL_Spec
+2026-05-07 12:48:47,516 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-07 12:48:53,646 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-07 12:48:53,772 | INFO | main.py | main.py:75 | 
+Backend successfully running on: http://0.0.0.0:8001/docs
+
+2026-05-07 12:48:54,104 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-07 12:49:20,928 | INFO | chat_ai_model | chat_ai_model.py:125 | Initializing new TenderRAG engine for: BHEL_Spec
+2026-05-07 12:57:19,368 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-07 12:57:21,392 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-07 12:57:21,497 | INFO | main.py | main.py:75 | 
+Backend successfully running on: http://0.0.0.0:8001/docs
+
+2026-05-07 12:57:42,926 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-07 12:57:43,341 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-07 12:57:43,709 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-07 12:58:04,988 | INFO | chat_ai_model | chat_ai_model.py:125 | Initializing new TenderRAG engine for: BHEL_Spec
+2026-05-07 13:01:53,074 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-07 13:01:54,956 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-07 13:01:55,277 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-07 13:02:35,151 | INFO | chat_ai_model | chat_ai_model.py:128 | Initializing new TenderRAG engine for: BHEL_Spec
+2026-05-07 13:06:29,164 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-07 13:06:29,596 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-07 13:06:29,665 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-07 13:09:42,271 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-07 13:09:42,655 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-07 13:09:42,710 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-07 13:10:20,190 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-07 13:10:20,628 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-07 13:10:20,698 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-07 13:17:23,838 | INFO | chat_ai_model | chat_ai_model.py:128 | Initializing new TenderRAG engine for: BHEL_Spec
+2026-05-07 13:24:02,516 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-07 13:24:02,958 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-07 13:24:03,025 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-07 13:25:05,354 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-07 13:28:34,356 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-07 13:28:34,764 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-07 13:28:34,851 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-07 13:29:39,528 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-07 13:29:39,903 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-07 13:29:39,984 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-07 13:31:48,233 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-07 13:31:48,709 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-07 13:31:48,775 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-07 13:32:06,023 | INFO | chat_ai_model | chat_ai_model.py:128 | Initializing new TenderRAG engine for: BHEL_Spec
+2026-05-07 13:42:34,831 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-07 13:42:35,244 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-07 13:42:35,291 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-07 13:45:09,207 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-07 13:45:09,682 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-07 13:45:09,740 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-07 13:48:44,072 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-07 13:48:44,494 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-07 13:48:44,567 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-07 13:49:54,461 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-07 13:49:54,925 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-07 13:49:54,995 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-07 13:50:29,663 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-07 13:50:30,103 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-07 13:50:30,175 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-07 13:51:37,964 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-07 13:51:38,334 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-07 13:51:38,416 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-07 13:53:20,032 | INFO | chat_ai_model | chat_ai_model.py:128 | Initializing new TenderRAG engine for: BHEL_Spec
+2026-05-07 13:59:43,264 | INFO | initilaize Embedding Model | load_embeding_model.py:44 | initially Embedding Model `|multi-qa-mpnet-base-dot-v1|` loaded ONLY ONCE! | batch=8
+2026-05-07 13:59:43,747 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-07 13:59:43,814 | INFO | main.py | main.py:31 | main file reloaded done!
+2026-05-07 13:59:43,814 | INFO | chat_ai_model | chat_ai_model.py:128 | Initializing new TenderRAG engine for: BHEL_Spec

@@ -63,12 +63,29 @@ class chat_ai_Request(BaseModel):
     query: str
     document: HttpUrl = Field(..., examples=["https://boomai-bucket.s3.ap-south-1.amazonaws.com/1774258127481-SOR- BMW-K34&K35 2.pdf"])
     doc_type: str =Field(..., examples=["xlsx | pdf"])
+    filter: Optional[str] = Field(default=None, examples=[None])
+
+class ExtrcationResult(BaseModel):
+    question: str
+    answer: str
+    page: str
+    status: str
+    source : str
+
+
+class RetrievalItem(BaseModel):
+    page: str
+    content: str
+    score: str
+    type: str
+    source: str
+
 
 class chat_ai_Response(BaseModel):
     id: str
-    ai_response: str
-    page: List[str]
-
+    ai_response: List[ExtrcationResult]
+    list_of_answer: List[RetrievalItem]
+    
 
 class summary_request(BaseModel):
     id:str

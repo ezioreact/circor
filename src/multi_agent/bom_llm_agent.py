@@ -96,6 +96,7 @@ async def bom_agent_infer(json_doc, user_query, image_path=None, switch_to_image
     if switch_to_image and image_path and os.path.exists(image_path):
         display_chunk = "Please refer to the attached visual image as the primary data source."
         use_visuals = True
+        print("[+]Passing image to the VLLM Bom Model")
     else:
         display_chunk = json_doc
         use_visuals = False
@@ -230,6 +231,8 @@ async def bom_agent_infer(json_doc, user_query, image_path=None, switch_to_image
 
 
 async def connect_raginfer_boomllm(chunks, query, collections):
+
+    print(f"Chunksw: {chunks}")
     retrieved_docs = chunks["documents"][0]
     metas = chunks["metadatas"][0]
 
@@ -237,9 +240,9 @@ async def connect_raginfer_boomllm(chunks, query, collections):
     partial = []
     approximate = []
     notfound = []
-
-
     for i, doc_text in enumerate(retrieved_docs):
+        print("[+] I value = ", i)
+        print("Metadata :",metas)
         page_number = metas[i].get("page", None)
         doc_text = f" CHUNK: {i+1} | {doc_text}"
         image_path = f"extracted_images/{collections}/page_{page_number}.png"

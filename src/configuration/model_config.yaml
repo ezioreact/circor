@@ -17,7 +17,7 @@ vector_reterival:
   batch_size : 5
 
 local_model_base_url:
-  base_url: "175.155.64.237:19590" #"222.235.180.221:40406"
+  base_url: "58.224.7.136:30769" #"222.235.180.221:40406"
   Ezio_llm_api_key : "Ezio-future-ai-api-key-qwenu2o3423nduasdcwiujhiuc21"
   model_path: "/home/ubuntu/circor_qwen_model/model"
 
