@@ -223,9 +223,9 @@ class chat_model:
             # ------------------------------------------------------------------
 
 
-            print("[+]Reterived_content: ",retrived_content)
-            documents = retrived_content["chat_response"].get("documents", [])
-            metadatas = retrived_content["chat_response"].get("metadatas", [])
+            # print("[+]Reterived_content: ",retrived_content)
+            documents = retrived_content.get("documents", [])
+            metadatas = retrived_content.get("metadatas", [])
 
             print(f"[+] Processing {len(documents)} chunks individually through the LLM.")
 
@@ -354,7 +354,7 @@ class chat_model:
                 # Evaluate the type of matching dynamically
                 # It evaluates raw_content or any 'match_type' key returned by your prompt
 
-                print("Response data :",data)
+                # print("Response data :",data)
                 match_type_str = str(data.get("status", "not found")).lower() if isinstance(data, dict) else "not found"
                 # print("Match_st: ",match_type_str)
                 if "exact" in match_type_str:
@@ -370,55 +370,30 @@ class chat_model:
             # Return Tiered fallback evaluation list
             # ------------------------------------------------------------------
         
-            # 1. Get the raw list of retrieved documents
-            full_retrieval_list = retrived_content.get("list_of_answers", [])
-
-            # 2. Enrich the list with specific S3 source links based on page numbers
-            enriched_retrieval_list = []
-            for item in full_retrieval_list:
-                page_num = item.get("page", "1 default") # Default to 1 if missing
-                item_type = item.get("type", "paragraph") # Identifying if it's a table or paragraph
-                
-                # Generate the specific S3 key for this specific page
-                # Note: Use your logic for collection names if needed
-
-                try:
-                    specific_s3_key = f"ai-extracted-table-image/{collection}_page_{page_num}.png"
-                    # Get the signed/public URL from S3
-                    cloud_link = await self.get_s3_url(specific_s3_key)
-                except:
-                    cloud_link = f"This is {item_type} from the page {page_num}. Table only have image."
-                item["source"] = cloud_link
-                enriched_retrieval_list.append(item)
-
-
+            
             if exact_matches:
                 print(f"[+] Returning exact matches count: {len(exact_matches)}")
                 return {
                     'assistant': exact_matches, 
-                    'status': "200",
-                    'lis_of_answer': enriched_retrieval_list  
+                    'status': "200"
                 }
             elif partial_matches:
                 print(f"[+] Returning partial matches count: {len(partial_matches)}")
                 return {
                     'assistant': partial_matches, 
-                    'status': "200",
-                    'lis_of_answer': enriched_retrieval_list  
+                    'status': "200"  
                 }
             elif approx_matches:
                 print(f"[+] Returning approx matches count: {len(approx_matches)}")
                 return {
                     'assistant': approx_matches, 
-                    'status': "200",
-                    'lis_of_answer': enriched_retrieval_list
+                    'status': "200"
                 }
             else:
                 print(f"[-] No matches found. Returning default fallback count: {len(not_found_matches)}")
                 return {
                     'assistant': not_found_matches, 
-                    'status': "200",
-                    'lis_of_answer': full_retrieval_list
+                    'status': "200"
                 }
         
         except Exception as E:

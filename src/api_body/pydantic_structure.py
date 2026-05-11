@@ -23,6 +23,17 @@ class Summary(BaseModel):
     version: int = 0
     status: str = "Original"
 
+class bom_correction_request(BaseModel):
+    id:str
+    query:str
+    wrong_answer:str
+    document_url: str
+
+# Data model for updates
+class ConfigUpdate(BaseModel):
+    base_url: Optional[str] = None
+    port: Optional[int] = None
+
 class BOMRequest(BaseModel):
     id:str
     projectId: str
@@ -73,18 +84,15 @@ class ExtrcationResult(BaseModel):
     source : str
 
 
-class RetrievalItem(BaseModel):
+class bom_correction_response(BaseModel):
     page: str
     content: str
     score: str
     type: str
-    source: str
-
 
 class chat_ai_Response(BaseModel):
     id: str
     ai_response: List[ExtrcationResult]
-    list_of_answer: List[RetrievalItem]
     
 
 class summary_request(BaseModel):

@@ -6,6 +6,7 @@ import json
 from io import BytesIO
 from src.multi_agent.url_config import gpu_server_url
 
+
 # server inference
 url = f"http://{gpu_server_url}/v1/chat/completions"
 headers = {"Content-Type": "application/json"}

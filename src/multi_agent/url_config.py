@@ -1,7 +1,10 @@
 from openai import OpenAI
 import httpx
+from src.configuration.env_key import EnvironKey
 
-gpu_server_url = "58.224.7.136:30769"
+config = EnvironKey.setting()
+gpu_server_url = config["local_model_base_url"]["base_url"]
+
 url = f"http://{gpu_server_url}/v1"
 
 try:

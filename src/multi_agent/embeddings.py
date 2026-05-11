@@ -376,9 +376,9 @@ class TenderRAG:
         print("\n--- AVAILABLE COLLECTIONS ---")
         if not collections:
             print("[-]No collections found!")
-        # else:
-        #     for col in collections:
-        #         print(f"- {col.name}")
+        else:
+            for col in collections:
+                print(f"- {col.name}")
 
 
         for col in self.client.list_collections():
@@ -566,7 +566,14 @@ class TenderRAG:
   
   
     """ above is working fine for comeplx question. BM and reterival fine but re-ranker kill the valide pages """
-    async def chat_query(self, question, n_results=100, top_k=5,where_filter=None):
+    async def chat_query(self, question, n_results=100, top_k=5,where_filter=None, correction=None):
+            
+            # if bom_correct_agent_collecion_:
+            #     print("Passing bom correct agent collection: ",bom_correct_agent_collecion_)
+            #     collections_ = bom_correct_agent_collecion_
+            # else:
+            #     collections_ = self.collection
+            
             start = time.time()
             if torch.cuda.is_available():
                 device = "cuda"
@@ -589,11 +596,10 @@ class TenderRAG:
                 self.reranker.model.to(device)
 
             print(f"\n[+] Processing on: {device.upper()}")
-            print(f"\n[+]chat query Collection {self.collection.name} Connected.\n [+]where Filter: {where_filter}")
             
             # # 1. Vector Search
             # query_embeddings = self.model.encode(question, normalize_embeddings=True).tolist()
-            # vector_results = self.collection.query(
+            # vector_results = collections_.query(
             #     query_embeddings=[query_embeddings],
             #     n_results=n_results,
             #     where={"type":"table"}
@@ -602,15 +608,18 @@ class TenderRAG:
             # 1. Vector Search
 
             v_start = time.time()
+            print("[+]Query: ",question)
             query_embeddings = self.model.encode(question, normalize_embeddings=True).tolist()
             
             if where_filter is not None:
+                print("[+]retrieve with where filter: ",where_filter)
                 vector_results = self.collection.query(
                     query_embeddings=[query_embeddings],
                     n_results=n_results,
                     where={"type": where_filter}
                 )
             else:
+                print(f"[+]retrieve without where filter {where_filter}")
                 vector_results = self.collection.query(
                 query_embeddings=[query_embeddings],
                 n_results=n_results)                  
@@ -654,7 +663,7 @@ class TenderRAG:
             bm_lat = bm_end - bm_start
 
             # Manually check why Page 32 is low-ranked
-            # debug_results = self.collection.get(where={"page": 32})
+            # debug_results = collections_.get(where={"page": 32})
             # print(f"Content of Page 32: {debug_results['documents']}")
 
             # # Check the score for Page 32 specifically
@@ -721,6 +730,19 @@ class TenderRAG:
             final_metadata = [item["meta"] for item in final_top_k]
             print(f"[++] Final Hybrid Top {top_k} Metadata: ", json.dumps(final_metadata, indent=4))
 
+
+            #for only bom correction api.
+            if correction:
+                return [
+                        {
+                            "page": str(item["meta"].get("page")),
+                            "content": str(item["doc"]), # Snippet for UI performance
+                            "score": str(item["score"]),
+                            "type": str(item["meta"].get("type"))
+                        } for item in final_results
+                     ]
+                 
+
     # --- LATENCY REPORT ---
             print(f"\n{'='*15} LATENCY REPORT {'='*15}")
             print(f"1. Vector Search (Top {n_results})  : {v_lat:.4f}s")
@@ -730,19 +752,10 @@ class TenderRAG:
             print(f"{'-'*46}")
             print(f"TOTAL RETRIEVAL TIME         : {end - start:.4f}s")
             print(f"{'='*46}\n")
-            return {"chat_response":{
+            return {
                 "documents": [item["doc"] for item in final_top_k],
                 "metadatas": final_metadata,
                 "scores": [item["score"] for item in final_top_k]
-            },
-            "list_of_answers":[
-                    {
-                        "page": str(item["meta"].get("page")),
-                        "content": str(item["doc"][:200] + "..."), # Snippet for UI performance
-                        "score": str(item["score"]),
-                        "type": str(item["meta"].get("type"))
-                    } for item in final_results
-                ]
             }
 
 

@@ -4,9 +4,11 @@ from pathlib import Path
 from live_logs import tail_log_file
 from fastapi.responses import JSONResponse, StreamingResponse
 from src.api_body.pydantic_structure import BOMRequest,BOMResponse,test_llm_request
+from src.multi_agent.bom_correction_agent import wrong_answer_correction
+from src.api_body.pydantic_structure import bom_correction_request
 from src.embeddnigs.vector_reterival.reterival import vector_retrieval_function
 from src.embeddnigs.vector_creation.create_vector import create_vector_embedding
-from src.api_body.pydantic_structure import VectorRetrievalRequest, chat_ai_Request,chat_ai_Response, ExtrcationResult
+from src.api_body.pydantic_structure import VectorRetrievalRequest, chat_ai_Request,chat_ai_Response, ExtrcationResult, bom_correction_response
 from src.api_body.pydantic_structure import summary_request, summary_response
 from src.api_body.pydantic_structure import question_request
 from src.rounting_pipeline.rag_llm_connector import start_proccess
@@ -16,6 +18,16 @@ from backend_logs import get_logger
 from src.ai_chatbot.chat_ai_model import chat_model
 from src.ai_summarizer.summmary_agent import summary_routing_agent
 from default_question import save_default_question, load_default_question
+import yaml
+from fastapi import FastAPI, HTTPException
+from pydantic import BaseModel
+from typing import Optional
+import os
+from src.api_body.pydantic_structure import ConfigUpdate
+
+app = FastAPI()
+CONFIG_PATH = r"src\configuration\model_config.yaml"
+
 
 production_api = APIRouter()
 developer_api = APIRouter()
@@ -46,6 +58,16 @@ async def bom_generation_api(user_request: BOMRequest, backgroun_task: Backgroun
         content=json.loads(BOMResponse(**response_data).model_dump_json())
     )
 
+@production_api.post("/prod/bom_correction")
+async def bom_correction_api(correction_request:bom_correction_request):
+    response = await wrong_answer_correction(correction_request)
+
+    print("Bom correction response: ",json.dumps(response,indent=4))
+    return [bom_correction_response(page=items.get("page",""),
+                                    content=items.get("content",""),
+                                    score=items.get("score",""),
+                                    type=items.get("type","")
+                                    )for items in response]
 
 # @production_api.post("/prod/chatbot" , response_model=chat_ai_Response)
 # async def Chatbot_api(user_chat_request:chat_ai_Request):
@@ -67,7 +89,7 @@ async def Chatbot_api(user_chat_request:chat_ai_Request):
                                                        where=user_chat_request.filter
                                                        )
     
-    # print("Chat ai response: ",json.dumps(chatai_response_,indent=4))
+    print("Chat ai response: ",json.dumps(chatai_response_,indent=4))
     result = [
         ExtrcationResult(
             question=item.get("question",""),
@@ -77,12 +99,10 @@ async def Chatbot_api(user_chat_request:chat_ai_Request):
             source=item.get("source","no s3 link available")
         )for item in chatai_response_["assistant"]
     ]
-
-    fallback_list = chatai_response_.get("lis_of_answer", [])
     return chat_ai_Response(id=user_chat_request.id,
                             ai_response=result,
-                            filter="none",
-                            list_of_answer=fallback_list)
+                            filter="none"
+                            )
 
 
 @production_api.post("/prod/summary")
@@ -98,6 +118,46 @@ async def custom_summary_query(user_req_qus:question_request):
 @production_api.get("/prod/default_summary_query")
 async def check_custom_summary_qurry():
     return await load_default_question()
+
+
+
+# 1. GET API: Retrieve entire configuration
+@production_api.get("/get-config")
+async def get_config():
+    if not os.path.exists(CONFIG_PATH):
+        raise HTTPException(status_code=404, detail="Config file not found")
+    
+    with open(CONFIG_PATH, 'r') as f:
+        config = yaml.safe_load(f)
+    return config
+
+# 2. POST API: Update URL and/or Deployment Port
+@production_api.post("/update-settings")
+async def update_settings(payload: ConfigUpdate):
+    try:
+        with open(CONFIG_PATH, 'r') as f:
+            config = yaml.safe_load(f)
+
+        # Update base_url if provided
+        if payload.base_url:
+            if 'local_model_base_url' not in config:
+                config['local_model_base_url'] = {}
+            config['local_model_base_url']['base_url'] = payload.base_url
+
+        # Update deployment port if provided
+        if payload.port:
+            if 'deployment' not in config:
+                config['deployment'] = {}
+            config['deployment']['port'] = payload.port
+
+        # Write back to file
+        with open(CONFIG_PATH, 'w') as f:
+            yaml.dump(config, f, default_flow_style=False, sort_keys=False)
+
+        return {"status": "success", "updated_values": payload.dict(exclude_none=True)}
+
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
 
 
 

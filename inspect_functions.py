@@ -5,3 +5,13 @@
 #     print(i['page'])
 
 
+import re
+def s3_file_name(name: str):
+    name = name.rsplit(".", 1)[0]
+    name = re.sub(r"[^a-zA-Z0-9._-]", "_", name)
+    name = re.sub(r"^[^a-zA-Z0-9]+", "", name)
+    name = re.sub(r"[^a-zA-Z0-9]+$", "", name)
+    return name
+
+
+# print(s3_file_name("https://boomai-bucket.s3.ap-south-1.amazonaws.com/aravindh/BHEL+Spec..pdf"))
